@@ -17,13 +17,8 @@ const sequelize = new Sequelize(env.database, env.username, env.password, {
 const db = {};
  
 db.Sequelize = Sequelize;
-db.sequelize = sequelize;
  
 //Models/tables
-db.admin = require('../models/admin')(sequelize,Sequelize)
-db.devices = require('../models/devices')(sequelize,Sequelize)
-db.occupant = require('../models/occupant')(sequelize,Sequelize)
-db.channels = require('../models/channels')(sequelize,Sequelize)
-db.streams = require('../models/streams')(sequelize,Sequelize)
+db.admin = require('../models/auth')(sequelize,Sequelize)
 
 module.exports = db;
