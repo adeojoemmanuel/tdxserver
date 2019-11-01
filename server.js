@@ -28,8 +28,7 @@ app.get("*", (req,res)=>{
 var server = app.listen(process.env.PORT || 3000, function () {
  
   var host = 'localhost'
-  // var port = server.address().port
-  var port = 8090
+  var port = server.address().port
  
   console.log("App listening at http://%s:%s", host, port)
 })
