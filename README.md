@@ -13,7 +13,7 @@ hotel automate api
 
 # register account
 
-## Base URL : 'https://10.0.0.1/api/'
+## Base URL : 'https://157.245.82.193/api/'
 
 - *POST* `/register`
 
