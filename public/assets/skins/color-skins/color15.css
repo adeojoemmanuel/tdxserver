@@ -2,10 +2,11 @@
     background:linear-gradient(-225deg, rgba(74, 61, 184, 0.8) 48%, rgba(50, 228, 179, 0.8) 100%);
 }
  .pattern:before{
-	background:linear-gradient(-225deg, rgba(74, 61, 184, 0.8) 48%, rgba(50, 228, 179, 0.8) 100%);
+	background: #003b2d !important;
+	opacity: 0.95;
 }
  .owl-controls .owl-page.active,  .owl-controls .owl-page.active:hover {
-    border-color: #ed5151;
+    border-color: #00BF8F;
     opacity: 1;
 }
  .owl-carousel:hover  .owl-nav button {
@@ -28,8 +29,8 @@
 }
  .btn-primary {
 	color: #fff;
-	background-color: #ed5151  ;
-	border-color: #ed5151  ;
+	background-color: #00BF8F  ;
+	border-color: #00BF8F  ;
 }
  .btn-primary:hover {
 	color: #fff;
@@ -117,13 +118,13 @@
 	border-color: #ed5151 !important;
 }
  .text-primary {
-	color: #ed5151 !important;
+	color: #00BF8F !important;
 }
   a.text-primary:hover,   a.text-primary:focus {
 	color: #f34b4b !important;
 }
  a.text-dark:hover,   a.text-dark:focus {
-	color: #ed5151    !important;
+	color: #00BF8F    !important;
 }
   .social-box.linkedin i {
 	background: #ed5151 ;
@@ -371,12 +372,12 @@
 	color: #ed5151   ;
 }
  #back-to-top {
-	background:#ed5151  ;
+	background:#00BF8F  ;
 }
  #back-to-top:hover {
 	background: #fff;
-	color: #ed5151   ;
-	border: 2px solid #ed5151   ;
+	color: #00BF8F   ;
+	border: 2px solid #00BF8F   ;
 }
  #chat-message {
 	background:linear-gradient(-225deg, rgba(74, 61, 184, 0.8) 48%, rgba(50, 228, 179, 0.8) 100%)
@@ -602,14 +603,14 @@
 	color: #fff;
 }
  .showmore-button-inner {
-	border: 1px solid #ed5151   ;
+	border: 1px solid #ed5151;
 	color: #ed5151   ;
 }
  .owl-nav button {
-	color: #ed5151    !important;
+	color: #00BF8F  !important;
 }
  .owl-carousel:hover .owl-nav button {
-	color: #ed5151    !important;
+	color: #00BF8F  !important;
 }
  .owl-nav>div i {
 	color: #ed5151   ;
@@ -863,10 +864,12 @@
 	background: linear-gradient(-225deg, rgba(74, 61, 184, 0.8) 48%, rgba(50, 228, 179, 0.8) 100%);
 }
  .bg-background2:before {
-	background:linear-gradient(-225deg, rgba(74, 61, 184, 0.8) 48%, rgba(50, 228, 179, 0.8) 100%);
+	background: #003b2d !important;
+	opacity: 0.8;
 }
  .bg-background-color:before {
-	background:linear-gradient(-225deg, rgba(74, 61, 184, 0.8) 48%, rgba(50, 228, 179, 0.8) 100%);
+	background: #003b2d !important;
+	opacity: 0.8;
 }
  .bg-background3:before {
 	background:linear-gradient(-225deg, rgba(74, 61, 184, 0.8) 48%, rgba(50, 228, 179, 0.8) 100%);
@@ -1001,7 +1004,8 @@
   
 }
  .item-card:hover .item-card-desc:before {
-    background:linear-gradient(-225deg, rgba(74, 61, 184, 0.8) 48%, rgba(50, 228, 179, 0.8) 100%);
+    background: #003b2d !important;
+	opacity: 0.8;
 }
 @media (min-width: 992px){
 	.sticky-wrapper.is-sticky .horizontalMenu>.horizontalMenu-list>li>a.active {
@@ -1172,13 +1176,13 @@
 	background: #ed5151;
 }
 .header-main i {
-  color: #ed5151;
+  color: #00BF8F;
 }
 .pricingTable .title {
 	color: #ed5151;
 }
 .pricingTable:hover .title {
-  background: #ed5151;
+  background: #00BF8F;
 }
 .pricingTable.advance-pricing {
   border: 1px solid #ed5151;
@@ -1232,7 +1236,7 @@ a:hover {
 }
 @media (min-width:992px) {
 	.sticky-wrapper.is-sticky .horizontal-main:after {
-		background: #ed5151;
+		background: #00BF8F;
 	}
 	.sticky-wrapper.is-sticky .horizontalMenu>.horizontalMenu-list>li>a.active {
 		background-color: #ed5151;
@@ -1246,13 +1250,13 @@ a:hover {
 	border-right-color: #ed5151;
 }
 .accent-2 {
-  border-top: 2px solid #ed5151;
+  border-top: 2px solid #00BF8F;
 }
 .item-card7-overlaytext span {
 	background: rgba(0,0,0,0.5);
 }
 .item-card7-overlaytext span.active {
-	background: #ed5151;
+	background: #00BF8F;
 }
 .item-card8-overlaytext h6 {
 	background: #ed5151;
@@ -1304,6 +1308,9 @@ a:hover {
 .bg-secondary {
   background-color: #9c31df!important;
 }
+.bg-secondary-tx {
+	background: rgba(0,0,0,0.5)!important;
+}
 a.bg-secondary:focus,a.bg-secondary:hover,button.bg-secondary:focus,button.bg-secondary:hover {
   background-color: #9c31df!important;
 }
@@ -1321,4 +1328,16 @@ a.text-secondary:focus,a.text-secondary:hover {
 }
 .bg-primary-transparent {
   background-color: rgba(241,202,214,.6);
+}
+
+.payment-card-tx{
+	border-bottom: 1px solid rgba(167, 180, 201, .1);
+}
+
+.payment-card-spacing-tx {
+	padding: 1.25rem!important;
+}
+
+.payment-card-icon-tx {
+	font-size: 1.875rem;
 }

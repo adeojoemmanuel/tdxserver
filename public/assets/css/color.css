@@ -32,9 +32,9 @@
 	border-color: #ed5151  ;
 }
  .btn-primary:hover {
-	color: #fff;
-	background-color: #eb4848;
-	border-color: #eb4848;
+	color: #fff!important;
+	background-color: rgb(0, 116, 87)!important;
+	border-color: rgb(0, 116, 87)!important;
 }
  .btn-primary:focus,   .btn-primary.focus {
 	box-shadow: 0 0 0 2px rgb(249, 100, 121,0.5);
@@ -637,27 +637,27 @@
 	color: #fff;
 }
  .horizontalMenu>.horizontalMenu-list>li>a.active {
-	background-color: #ed5151;
+	background-color: #00BF8F!important;
 	color: #fff;
 }
  .horizontalMenu>.horizontalMenu-list>li:hover>a {
-	background-color: #ed5151   ;
+	background-color: #00BF8F!important  ;
 	color: #fff !important;
 }
  .horizontalMenu>.horizontalMenu-list>li:hover>a .fa {
-    background-color: #ed5151  ;
+    background-color: #00BF8F!important  ;
     color: #fff !important;
 }
  .horizontalMenu>.horizontalMenu-list>li>ul.sub-menu>li:hover>a {
-	background-color: #ed5151   ;
+	background-color: #00BF8F!important  ;
 	color: #fff;
 }
  .horizontalMenu>.horizontalMenu-list>li>ul.sub-menu>li>ul.sub-menu>li:hover>a {
-	background-color: #ed5151   ;
+	background-color: #00BF8F!important   ;
 	color: #fff;
 }
  .horizontalMenu>.horizontalMenu-list>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li:hover a {
-	background-color: #ed5151   ;
+	background-color: #00BF8F!important  ;
 	color: #fff;
 }
  code {
