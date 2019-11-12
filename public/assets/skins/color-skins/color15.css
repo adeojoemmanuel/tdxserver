@@ -98,7 +98,7 @@
 }
  .badge-primary {
 	color: #fff;
-	background-color: #ed5151 ;
+	background-color: #aaaaaa ;
 }
  .badge-primary[href]:hover,   .badge-primary[href]:focus {
 	color: #fff;
@@ -118,6 +118,10 @@
 	border-color: #ed5151 !important;
 }
  .text-primary {
+	color: #00BF8F !important;
+}
+
+.text-primary-tx {
 	color: #00BF8F !important;
 }
   a.text-primary:hover,   a.text-primary:focus {
@@ -480,7 +484,7 @@
 	border-bottom: 2px solid #ed5151   ;
 }
  .arrow-ribbon.bg-primary:before {
-	border-left: 15px solid #ed5151   ;
+	border-left: 15px solid #00BF8F   ;
 }
  .arrow-ribbon2:before {
 	border-left: 24px solid #ed5151   ;
@@ -499,7 +503,7 @@
 	color: #ed5151   ;
 }
  .footer-main a:hover {
-	color: #ed5151   ;
+	color: #00BF8F!important;
 }
  .footer-links a:hover {
 	color: #ed5151   
@@ -1000,17 +1004,18 @@
     color: #ed5151;
 }
  .item-card .item-card-desc:before {
-    background: rgba(40, 35, 47, 0.5);
+	background: #fff!important;
+	opacity: 0.8;
   
 }
  .item-card:hover .item-card-desc:before {
     background: #003b2d !important;
-	opacity: 0.8;
+	/* opacity: 0.8; */
 }
 @media (min-width: 992px){
 	.sticky-wrapper.is-sticky .horizontalMenu>.horizontalMenu-list>li>a.active {
-		background-color: #ed5151;
-		color: #fff;
+		background-color: #00BF8F;
+		color: #232323;
 	}
 	.sticky-wrapper.is-sticky .horizontalMenu>.horizontalMenu-list>li>a:hover {
 		background-color: #ed5151;
@@ -1121,11 +1126,12 @@
 }
 @media (min-width:992px) {
 	.sticky-wrapper.is-sticky .horizontal-main {
-		background: #22337d;
+		background: #fff;
 	}
 }
 .horizontal-main{
-	background: #22337d;
+	background: #fff;
+	padding: 1.25rem;
 }
 .bg-card-light:hover {
     border-color: #ed5151;
@@ -1176,7 +1182,7 @@
 	background: #ed5151;
 }
 .header-main i {
-  color: #00BF8F;
+  color: #fff;
 }
 .pricingTable .title {
 	color: #ed5151;
@@ -1232,14 +1238,14 @@
 	border-color:#ed5151;
 }
 a:hover {
-  color: #ed5151;
+  color: #00BF8F;
 }
 @media (min-width:992px) {
 	.sticky-wrapper.is-sticky .horizontal-main:after {
 		background: #00BF8F;
 	}
 	.sticky-wrapper.is-sticky .horizontalMenu>.horizontalMenu-list>li>a.active {
-		background-color: #ed5151;
+		background-color: #00BF8F;
 		color: #fff;
 	}
 }
@@ -1335,9 +1341,13 @@ a.text-secondary:focus,a.text-secondary:hover {
 }
 
 .payment-card-spacing-tx {
-	padding: 1.25rem!important;
+	padding: 1.50rem 1.25rem 1.25rem 0.50rem!important;
 }
 
 .payment-card-icon-tx {
-	font-size: 1.875rem;
+	width: 2.5rem!important;
+}
+
+.bg-tag-tx {
+	background-color: #00BF8F!important;
 }

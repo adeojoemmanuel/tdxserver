@@ -1200,7 +1200,7 @@
 	margin: 0 auto;
 }
 .desktoplogo {
-	padding: 1.3rem 0;
+	padding: 1.3rem 2rem;
 	margin: 0;
 	float: left;
 }
@@ -1210,11 +1210,32 @@
 .horizontalMenu {
 	color: #fff;
 	font-size: 14px;
+	font-weight: 600;
 	padding: 0;
-	float: right;
+	float: left;
 	display: block;
 	
 }
+
+.call-us-now {
+	margin: 0;
+	padding: 0;
+	float: right;
+	display: block;
+}
+.contact-in-header {
+	border-left: 1px solid #dfdfdf;
+	padding-left: 10px;
+}
+
+.contact-in-header i {
+	color: #232323;
+    float: left;
+    font-size: 45px;
+    line-height: 51px;
+    margin-right: 0;
+}
+
 .horizontalMenu>.horizontalMenu-list {
 	text-align: left;
 	margin: 0 auto 0 auto;
