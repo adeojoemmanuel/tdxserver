@@ -98,7 +98,7 @@
 }
  .badge-primary {
 	color: #fff;
-	background-color: #232323!important;
+	background-color: #232323ba!important;
 }
  .badge-primary[href]:hover,   .badge-primary[href]:focus {
 	color: #fff;
