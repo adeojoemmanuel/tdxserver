@@ -6,7 +6,7 @@
 	opacity: 0.95;
 }
  .owl-controls .owl-page.active,  .owl-controls .owl-page.active:hover {
-    border-color: #00BF8F;
+    border-color: #fff;
     opacity: 1;
 }
  .owl-carousel:hover  .owl-nav button {
@@ -29,8 +29,8 @@
 }
  .btn-primary {
 	color: #fff;
-	background-color: #00BF8F  ;
-	border-color: #00BF8F  ;
+	background-color: #4CAF50  ;
+	border-color: #4CAF50  ;
 }
  .btn-primary:hover {
 	color: #fff;
@@ -118,7 +118,7 @@
 	border-color: #ed5151 !important;
 }
  .text-primary {
-	color: #00BF8F !important;
+	color: #4CAF50 !important;
 }
 
 .text-primary-tx {
@@ -376,12 +376,12 @@
 	color: #ed5151   ;
 }
  #back-to-top {
-	background:#00BF8F  ;
+	background:#4CAF50  ;
 }
  #back-to-top:hover {
 	background: #fff;
-	color: #00BF8F   ;
-	border: 2px solid #00BF8F   ;
+	color: #4CAF50   ;
+	border: 2px solid #4CAF50   ;
 }
  #chat-message {
 	background:linear-gradient(-225deg, rgba(74, 61, 184, 0.8) 48%, rgba(50, 228, 179, 0.8) 100%)
@@ -484,7 +484,7 @@
 	border-bottom: 2px solid #ed5151   ;
 }
  .arrow-ribbon.bg-primary:before {
-	border-left: 15px solid #00BF8F   ;
+	border-left: 15px solid #4CAF50   ;
 }
  .arrow-ribbon2:before {
 	border-left: 24px solid #ed5151   ;
@@ -637,7 +637,7 @@
 	color: #fff;
 }
  .horizontalMenu>.horizontalMenu-list>li>.horizontal-megamenu .menu_form input[type="button"] {
-	background-color: #ed5151   ;
+	background-color: #4CAF50!important   ;
 	color: #fff;
 }
  .horizontalMenu>.horizontalMenu-list>li>a.active {
@@ -1005,7 +1005,7 @@
 }
  .item-card .item-card-desc:before {
 	background: #fff!important;
-	opacity: 0.8;
+	opacity: 0;
   
 }
  .item-card:hover .item-card-desc:before {
@@ -1131,7 +1131,7 @@
 }
 .horizontal-main{
 	background: #fff;
-	padding: 1.25rem;
+	padding: 1.25rem 0;
 }
 .bg-card-light:hover {
     border-color: #ed5151;
@@ -1238,11 +1238,11 @@
 	border-color:#ed5151;
 }
 a:hover {
-  color: #00BF8F;
+  color: #4CAF50;
 }
 @media (min-width:992px) {
 	.sticky-wrapper.is-sticky .horizontal-main:after {
-		background: #00BF8F;
+		background: #4CAF50;
 	}
 	.sticky-wrapper.is-sticky .horizontalMenu>.horizontalMenu-list>li>a.active {
 		background-color: #00BF8F;
@@ -1256,13 +1256,13 @@ a:hover {
 	border-right-color: #ed5151;
 }
 .accent-2 {
-  border-top: 2px solid #00BF8F;
+  border-top: 2px solid #4CAF50;
 }
 .item-card7-overlaytext span {
 	background: rgba(0,0,0,0.5);
 }
 .item-card7-overlaytext span.active {
-	background: #00BF8F;
+	background: #4CAF50;
 }
 .item-card8-overlaytext h6 {
 	background: #ed5151;
@@ -1349,5 +1349,5 @@ a.text-secondary:focus,a.text-secondary:hover {
 }
 
 .bg-tag-tx {
-	background-color: #00BF8F!important;
+	background-color: #4CAF50!important;
 }
