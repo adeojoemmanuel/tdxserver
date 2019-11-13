@@ -26,6 +26,9 @@ app.get('/',  (req,res)=>{
 app.get('/register',  (req,res)=>{
 	res.sendFile(path.join(__dirname, 'public/tempview/register.html'))
 })
+app.get('/login',  (req,res)=>{
+	res.sendFile(path.join(__dirname, 'public/tempview/login.html'))
+})
 app.get('/productdetails',  (req,res)=>{
 	res.sendFile(path.join(__dirname, 'public/tempview/productdetail.html'))
 })
