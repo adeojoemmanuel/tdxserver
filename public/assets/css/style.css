@@ -26036,7 +26036,7 @@ ul.dropdown-menu li.dropdown ul.dropdown-menu .dropdown-plus-title {
 }
 .badge {
 	display: inline-block;
-	padding: .25em .4em;
+	padding: .0em 0em !important;
 	font-size: 100%;
 	font-weight: 300;
 	line-height: 1.2;
@@ -26049,8 +26049,8 @@ ul.dropdown-menu li.dropdown ul.dropdown-menu .dropdown-plus-title {
 	border-radius: 0;
 }
 .badge-pill {
-	padding-right: .6em;
-	padding-left: .6em;
+	padding-right: 1.5em;
+	padding-left: .4em;
 	border-radius: 10rem;
 }
 .badgetext {
@@ -37463,9 +37463,9 @@ footer .border-bottom {
 	z-index: 10;
 }
 .item-card .item-card-desc .item-card-text {
-	position: absolute;
-	top: -13px;
-	left: 0;
+	position: static!important;
+	/* top: -13px;
+	left: 0; */
 	text-align: center;
 	width: 100%;
 	height: 100%;
@@ -37478,9 +37478,10 @@ footer .border-bottom {
 	text-align: center;
 	color: #232323;
 	z-index: 2;
+	margin-bottom: 8px!important;
 }
 .item-card .item-card-desc .item-card-text span.badge {
-	position: absolute;
+	position: static!important;
 	top: 80%;
 	left: 0;
 	right: 0;
@@ -38701,8 +38702,8 @@ footer .border-top {
 }
 .item-card-img {
 	overflow: hidden;
-	position: relative;
-	z-index: 2;
+	/* position: relative;
+	z-index: 2; */
 	width: ;
 }
 .item-card-desc img {
@@ -41303,7 +41304,7 @@ body .modal-open {
     border: 1px solid #e8ebf3;
 }
 .value-added-tx {
-	font-size: 1.1rem!important;
+	font-size: 1rem!important;
 }
 .card-cat-tx:hover {
 	background: #00BF8F !important;
@@ -41358,6 +41359,38 @@ body .modal-open {
 	margin-right: 8px;
 }
 .badge-tx {
-	margin-bottom: 0px!important;
-	margin-left: -7px!important;
+	/* margin-bottom: 0px!important;
+	margin-left: -7px!important; */
+}
+
+.slick-slide {
+	margin: 0 30px;
+	width: 188px!important;
+	height: 188px!important;
+	
+}
+
+.slick-list {
+    margin: 0 -30px!important;
+}
+
+.item-card-desc-tx {
+	padding: 20px!important;
+}
+
+.item-card-img-tx {
+	overflow: hidden!important;
+	display: block!important;
+	width: 92px!important;
+    height: 92px!important;
+    margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	z-index: 2;
+	margin-bottom: 20px;
+}
+
+.item-card-text-tx {
+	display: block!important;
+	/* margin-top: -42px; */
 }
