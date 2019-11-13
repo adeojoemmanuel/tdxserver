@@ -19,6 +19,26 @@ app.options('*', cors());
  
 require('./routes/main.route')(app);
 
+app.get('/',  (req,res)=>{
+	res.sendFile(path.join(__dirname, 'public/tempview/index.html'))
+})
+
+app.get('/register',  (req,res)=>{
+	res.sendFile(path.join(__dirname, 'public/tempview/register.html'))
+})
+app.get('/productdetails',  (req,res)=>{
+	res.sendFile(path.join(__dirname, 'public/tempview/productdetail.html'))
+})
+app.get('/gridlist',  (req,res)=>{
+	res.sendFile(path.join(__dirname, 'public/tempview/gridlist.html'))
+})
+app.get('/listlist',  (req,res)=>{
+	res.sendFile(path.join(__dirname, 'public/tempview/listlist.html'))
+})
+app.get('/postad',  (req,res)=>{
+	res.sendFile(path.join(__dirname, 'public/tempview/postad.html'))
+})
+
 app.get("*", (req,res)=>{
 	res.sendFile(path.join(__dirname, 'public/tempview/index.html'))
 })

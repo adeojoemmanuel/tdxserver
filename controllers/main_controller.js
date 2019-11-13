@@ -7,6 +7,8 @@ const streams = db.streams
 var Sequelize = require('sequelize');
 const jwt = require('jsonwebtoken');
 const expressJwt = require('express-jwt');
+const path = require('path');
+
 
 //const mustache   = require('mustache');
 // Post a Customer
@@ -17,6 +19,26 @@ exports.rootpage = (req,res)=>{
     status:true,
     message:"Hello World"
   })
+}
+
+exports.regisistration = (req,res)=>{
+  res.sendFile(path.join(__dirname, 'public/tempview/register.html'))
+}
+
+exports.pdetail = (req,res)=>{
+  res.sendFile(path.join(__dirname, 'public/tempview/productdetail.html'))
+}
+
+exports.gridlist = (req,res)=>{
+  res.sendFile(path.join(__dirname, 'public/tempview/gridlist.html'))
+}
+
+exports.listlist = (req,res)=>{
+  res.sendFile(path.join(__dirname, 'public/tempview/listlist.html'))
+}
+
+exports.postad = (req,res)=>{
+  res.sendFile(path.join(__dirname, 'public/tempview/postad.html'))
 }
 
 
