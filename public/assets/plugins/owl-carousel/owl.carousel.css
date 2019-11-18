@@ -67,6 +67,9 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none; }
+    button span {
+      font-size: 30px;
+    }
   .owl-carousel .owl-nav button.owl-prev,
   .owl-carousel .owl-nav button.owl-next,
   .owl-carousel button.owl-dot {
@@ -254,5 +257,5 @@
     padding-left: 5px;
 }
 .testimonia .rating-stars .rating-stars-container .rating-star.is--active, .rating-stars .rating-stars-container .rating-star.is--hover {
-    color: rgb(255, 204, 0) !important;
+    color: rgb(255, 204, 0)!important;
 }

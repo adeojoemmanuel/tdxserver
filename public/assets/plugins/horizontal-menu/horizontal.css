@@ -1214,14 +1214,25 @@
 	padding: 0;
 	float: left;
 	display: block;
+	width: 100%;
 	
 }
+.sticky-wrapper.is-sticky .horizontal-main .horizontal-mainwrapper nav{
+	margin-top: -16px!important;
+}
+
+.sticky-wrapper.is-sticky .horizontal-main .horizontal-mainwrapper .call-us-now{
+	margin-top: 8px!important;
+}
+
+
 
 .call-us-now {
 	margin: 0;
 	padding: 0;
 	float: right;
 	display: block;
+	width: 15.125rem;
 }
 .contact-in-header {
 	border-left: 1px solid #dfdfdf;
@@ -1242,6 +1253,7 @@
 	width: 100%;
 	display: block;
 	padding: 0;
+	float: left;
 }
 .horizontalMenu>.horizontalMenu-list>li {
 	text-align: center;
@@ -1740,6 +1752,12 @@
 		height: 0;
 		padding:0;
 	}
+	.sticky-wrapper.is-sticky .horizontal-main .horizontal-mainwrapper .call-us-now{
+		display: none;
+	}
+	.sticky-wrapper .horizontal-main .horizontal-mainwrapper .call-us-now{
+		display: none;
+	}
 	.horizontalMenucontainer {
 		background-attachment: local;
 		background-position: 33% 0%;
@@ -2060,6 +2078,11 @@
 	.horizontal-header .smllogo {
 		display: inline-block;
 		margin-top: 11px;
+		
+	}
+	.horizontal-header .smllogo img {
+		width: 180px!important;
+		margin-top: -3.125rem;
 	}
 	/* Mobile Search Bar*/
 	.horizontalMenu>.horizontalMenu-list>li.rightmenu>.topmenusearch {

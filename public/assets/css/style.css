@@ -22350,7 +22350,7 @@ select.form-control.select-sm {
 .form-control:focus {
 	color: #6f6e6e;
 	background-color: #fff;
-	border-color: #e8ebf3;
+	border: 1px solid #4CAF50!important;
 	outline: 0;
 	box-shadow: none;
 }
@@ -34165,6 +34165,17 @@ svg {
 	border-bottom: 15px solid transparent;
 	width: 0;
 }
+.arrow-ribbon.bg-tag-gold-tx:before {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	content: "";
+	right: -15px;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	width: 0;
+}
 .arrow-ribbon.bg-secondary:before {
 	position: absolute;
 	right: 0;
@@ -38270,6 +38281,10 @@ footer .border-top {
 .footer-main .form-control {
 	border: 0!important;
 }
+
+.footer-main .form-control.form-control-tx:focus {
+	border: 1px solid #4CAF50!important;
+}
 .footer-payments {
 	padding-left: 0;
 	list-style: none;
@@ -38456,10 +38471,16 @@ footer .border-top {
 		padding-top: 0;
 		padding-bottom: 12rem;
 	}
-	.sticky-wrapper.is-sticky .horizontal-main {
+	.is-sticky .horizontal-main {
 		background: 0 0;
 	}
-	.sticky-wrapper.is-sticky .desktoplogo-1 {
+	.is-sticky .horizontal-main .horizontal-mainwrapper nav {
+		margin-top: -16px!important;
+	}
+	.is-sticky .horizontal-main .horizontal-mainwrapper .call-us-now {
+		margin-top: -4px!important;
+	}
+	.is-sticky .desktoplogo-1 {
 		display: none!important;
 	}
 	.bannerimg {
@@ -41318,6 +41339,18 @@ body .modal-open {
 	.wideget-user-tab.wideget-user-tab3 .tabs-menu1 ul li{
 		margin:3px !important;
 	}
+	.slick-slide {
+		margin: 0 80px!important;
+	}
+	
+	.slick-list {
+		margin: 0 -80px!important;
+	}
+	.tx-btn-color {
+		/* background-color: #4CAF50!important;
+		border-color: #4CAF50!important; */
+		color: #fff!important;
+	}
 }
 @media (min-width: 992px){
 	.banner-slider div.item {
@@ -41382,8 +41415,8 @@ body .modal-open {
 .item-card-img-tx {
 	overflow: hidden!important;
 	display: block!important;
-	width: 64px!important;
-    height: 64px!important;
+	width: 4rem!important;
+    height: 4rem!important;
     margin-left: auto;
 	margin-right: auto;
 	position: relative;

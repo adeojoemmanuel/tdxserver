@@ -503,7 +503,7 @@
 	color: #ed5151   ;
 }
  .footer-main a:hover {
-	color: #00BF8F!important;
+	color: #4CAF50!important;
 }
  .footer-links a:hover {
 	color: #ed5151   
@@ -1123,6 +1123,11 @@
 		background-color: #ed5151;
 		color: #fff;
 	}
+	.sticky-wrapper .horizontal-main {
+		background: none!important;
+		padding: 0!important;
+	}
+	
 }
 @media (min-width:992px) {
 	.sticky-wrapper.is-sticky .horizontal-main {
@@ -1351,3 +1356,12 @@ a.text-secondary:focus,a.text-secondary:hover {
 .bg-tag-tx {
 	background-color: #4CAF50!important;
 }
+.bg-tag-gold-tx {
+	background-color: #FFD700!important;
+}
+
+.arrow-ribbon.bg-tag-gold-tx:before {
+	border-left: 15px solid #FFD700   ;
+	/* background-color: #FFD700!important; */
+}
+

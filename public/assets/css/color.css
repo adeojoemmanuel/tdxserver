@@ -641,7 +641,7 @@
 	color: #fff;
 }
  .horizontalMenu>.horizontalMenu-list>li:hover>a {
-	background-color: #00BF8F!important  ;
+	background-color: #4CAF50!important  ;
 	color: #fff !important;
 }
  .horizontalMenu>.horizontalMenu-list>li:hover>a .fa {
