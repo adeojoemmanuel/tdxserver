@@ -128,29 +128,54 @@
 					<div class="col-md-8">
 						<div class="form-box">
 							<h2 class="form-box-title">
-								<i class="fa fa-user-plus"></i>
-								  Create your account, it's free.
+								<div class="row">
+									<div class="col-md-1">
+										<img class="" src="../assets/images/add-account.svg">
+									</div>
+									<div class="col-md-11" style="padding: 0.625rem;">
+											Create your account, it's free.
+									</div>
+								</div>
+								
+								  
 							</h2>
 							<div class="row">
 								<div class="col-sm-12">
 									<form action="" class="form-horizontal">
 										<div class="form-group form-group-tx row">
 											<label for="" class="col-md-4 control-label">
-												You are a <sup>*</sup>
+												<!-- You are a <sup>*</sup> -->
 											</label>
-											<div class="col-md-6" >
-												<div class="radio">
-													<label for="">
-														<input type="radio" name="professional" id="professional" value="option1" checked=""> Professional
-													</label>
+											<!-- <div class="col-md-6" >
+												<div class="social-media-button">
+													<button class="btn btn-block btn-reg facebook-reg"> <i class="fa fa-facebook fa-2x"></i> Signup with Facebook</button>
 												</div>
-												<div class="radio">
-													<label for="">
-														<input type="radio" name="individual" id="individual" value="option2"> Individual
-													</label>
+												<div class="social-media-button">
+													<button class="btn btn-block btn-reg google-reg"> <i class="fa fa-google-plus fa-2x"></i> Signup with Google</button>
+												</div>
+											</div> -->
+											<div class="col-md-6">
+												<div class="row">
+													<div class="col-md-6">
+															<div class="social-media-button">
+																	<button class="btn btn-block btn-reg facebook-reg"> <i class="fa fa-facebook fa-2x"></i> Signup </button>
+																</div>
+													</div>
+													<div class="col-md-6">
+															<div class="social-media-button">
+																	<button class="btn btn-block btn-reg google-reg"> <i class="fa fa-google-plus fa-2x"></i> Signup</button>
+																</div>
+													</div>
 												</div>
 											</div>
 										</div>
+										<div class="row">
+											<div class="col-md-4"></div>
+											<div class="col-md-6">
+												<div class="bc-auth-card__form-separator"></div>
+											</div>
+										</div>
+										
 										<div class="form-group form-group-tx row">
 												<label for="" class="col-md-4 control-label">
 													First Name <sup>*</sup>
@@ -194,12 +219,12 @@
 											<div class="col-md-6">
 												<div class="radio">
 													<label for="">
-														<input type="radio" name="female" id="female" value="option3" checked=""> Female
+														<input type="radio" name="gender" id="female" value="option3" checked=""> Female
 													</label>
 												</div>
 												<div class="radio">
 													<label for="">
-														<input type="radio" name="female" id="female" value="option4"> Male
+														<input type="radio" name="gender" id="male" value="option4"> Male
 													</label>
 												</div>
 											</div>
@@ -239,7 +264,7 @@
 
 											<div class="col-md-8">
 												<div class="termbox mb10">
-													<div class="col-auto my-1 no-padding">
+													<div class="col-auto col-tx my-1 no-padding">
 														<div class="custom-control custom-checkbox mr-sm-2">
 															<input type="checkbox" class="custom-control-input" id="customControlAutosizing">
 															<label class="custom-control-label" for="customControlAutosizing">  <span class="custom-control-description"> I have read and agree to the <a href="terms-conditions.html" style="color: #4CAF50;">Terms
@@ -249,7 +274,12 @@
 
 												</div>
 												<div style="clear:both"></div>
-												<a class="btn btn-primary" href="account-home.html">Register</a></div>
+												<div class="row">
+													<div class="col-md-9">
+														<a class="btn btn-block btn-primary btn-register-tx" href="account-home.html">Register</a></div>
+													</div>
+												</div>
+												
 										</div>
 									</form>
 								</div>

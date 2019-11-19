@@ -1136,7 +1136,7 @@
 }
 .horizontal-main{
 	background: #fff;
-	padding: 1.25rem 0;
+	padding: 7.8125px 0;
 }
 .bg-card-light:hover {
     border-color: #ed5151;
@@ -1357,11 +1357,11 @@ a.text-secondary:focus,a.text-secondary:hover {
 	background-color: #4CAF50!important;
 }
 .bg-tag-gold-tx {
-	background-color: #FFD700!important;
+	background-color: #ff9101!important;
 }
 
 .arrow-ribbon.bg-tag-gold-tx:before {
-	border-left: 15px solid #FFD700   ;
+	border-left: 15px solid #ff9101  ;
 	/* background-color: #FFD700!important; */
 }
 

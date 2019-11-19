@@ -1424,7 +1424,7 @@ pre code {
 		padding: 1.25rem 0;
 	}
 	.desktoplogo-1 {
-		display: none;
+		/* display: none; */
 	}
 	.sticky-wrapper.is-sticky .desktoplogo {
 		display: none;
@@ -13484,7 +13484,7 @@ svg {
 	z-index: 99;
 	display: none;
 	text-align: center;
-	border-radius: 3px;
+	border-radius: 50%!important;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-o-border-radius: 2px;
@@ -22350,7 +22350,7 @@ select.form-control.select-sm {
 .form-control:focus {
 	color: #6f6e6e;
 	background-color: #fff;
-	border: 1px solid #4CAF50!important;
+	border: 2px solid #4CAF50!important;
 	outline: 0;
 	box-shadow: none;
 }
@@ -28601,7 +28601,7 @@ a.text-light:focus, a.text-light:hover {
 	position: relative;
 }
 .btn-tx {
-	padding: 0.625rem 0.9375rem!important;
+	padding: 0.671875rem 0.9375rem!important;
 	border-radius: 0px!important;
 	margin-bottom: 0px!important;
 }
@@ -38283,7 +38283,7 @@ footer .border-top {
 }
 
 .footer-main .form-control.form-control-tx:focus {
-	border: 1px solid #4CAF50!important;
+	border: 2px solid #4CAF50!important;
 }
 .footer-payments {
 	padding-left: 0;
@@ -41460,6 +41460,7 @@ body .modal-open {
     margin: 5px -20px 25px;
 	padding: 0 20px 20px;
 	border-bottom: 1px solid #e6e6e6;
+	font-weight: 600;
 	font-size: 1rem;
 	text-align: left;
 	text-transform: uppercase;
@@ -41469,6 +41470,7 @@ body .modal-open {
 	.control-label  {
 		text-align: right;
 		margin-bottom: 0;
+		font-weight: 600;
 	}
 
 	.form-group-tx {
@@ -41486,4 +41488,60 @@ body .modal-open {
 	.icon-color-3 {
 		color: #74c29b;
 	}
+	.product-title-tx {
+		font-weight: 500;
+	}
+	.social-media-button {
+		margin-bottom: 16px;
+	}
+	.btn-reg {
+		padding: 8px 12px;
+		font-size: 16px;
+		font-weight: 500;
+	}
+	.btn-reg i {
+		float: left;
+		/* margin-top: 0.375rem; */
+		
+	}
+	.facebook-reg {
+		border: 2px solid #3B5998;
+		color: #3B5998;
+	}
+	.facebook-reg:hover {
+		background-color: #3B5998;
+		color: #fff;
+	}
+	.google-reg {
+		border: 2px solid #EA4335;
+		color: #EA4335;
+	}
+	.google-reg:hover {
+		background-color: #EA4335;
+		color: #fff;
+	}
+	
+	.bc-auth-card__form-separator {
+		border-top: 1px solid rgba(166, 184, 189, 0.5);
+		margin-bottom: 24px;
+		position: relative;
+	}
+	.bc-auth-card__form-separator:before {
+		content: 'OR';
+		font-size: 16px;
+		position: absolute;
+		margin-left: 156px;
+		margin-top: -10px;
+		background-color: #FFFFFF;
+		padding: 0 6px;
+	}
+	.btn-register-tx {
+		margin-top: 16px;
+		padding: 8px 12px;
+		font-size: 1rem;
+	}
+	.col-tx {
+		padding: 0!important;
+	}
+	
 /* } */
