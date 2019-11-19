@@ -41437,3 +41437,53 @@ body .modal-open {
 	border-radius: 20px;
 	margin-right: 6px;
 }
+
+.main-content-reg-tx {
+	min-height: calc(100% - 162px);
+	padding: 30px 0;
+}
+
+.reg-page {
+	background-color: #eee;
+}
+
+.form-box {
+	background: #fff;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px rgba(180, 180, 180, 0.5);
+	margin-bottom: 30px;
+	padding: 20px;
+}
+
+.form-box-title {
+	line-height: 1;
+    margin: 5px -20px 25px;
+	padding: 0 20px 20px;
+	border-bottom: 1px solid #e6e6e6;
+	font-size: 1rem;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+/* @media (min-width: 768px) { */
+	.control-label  {
+		text-align: right;
+		margin-bottom: 0;
+	}
+
+	.form-group-tx {
+		display: flex;
+	}
+	.promo-text-box {
+		padding: 15px 20px;
+	}
+	.icon-color-1 {
+		color: #ff9113;
+	}
+	.icon-color-2 {
+		color: #e6c840;
+	}
+	.icon-color-3 {
+		color: #74c29b;
+	}
+/* } */

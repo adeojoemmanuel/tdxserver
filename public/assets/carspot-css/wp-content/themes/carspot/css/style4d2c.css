@@ -86,10 +86,11 @@ body {
     width: 100%;
 }
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Poppins', sans-serif !important;
     color: #777;
-    font-size: 16px;
-    line-height: 1.7em;
+    font-size: 14px;
+    line-height: 1.5em;
     font-weight: 400;
     -webkit-text-size-adjust: 100%;
     -webkit-overflow-scrolling: touch;
@@ -5726,21 +5727,21 @@ fieldset[disabled] .btn-purple.active {
     border: 1px solid #02a8f3
 }
 .alert.alert-info::after {
-    content: "ï?š"
+    content: "ï¿½?ï¿½"
 }
 .alert.alert-warning {
     background: #fe9700 none repeat scroll 0 0;
     border: 1px solid #fe9700
 }
 .alert.alert-warning::after {
-    content: "ï?±"
+    content: "ï¿½?ï¿½"
 }
 .alert.alert-danger {
     background: #f34235 none repeat scroll 0 0;
     border: 1px solid #f34235
 }
 .alert.alert-danger::after {
-    content: "ï?ª"
+    content: "ï¿½?ï¿½"
 }
 .alert.alert-success.alert-outline {
     background: transparent;
@@ -5772,7 +5773,7 @@ fieldset[disabled] .btn-purple.active {
     color: #232323
 }
 .alert.alert-danger::after {
-    content: "ï?ª"
+    content: "ï¿½?ï¿½"
 }
 .alert.alert-outline .close {
     color: #232323;
@@ -14052,8 +14053,51 @@ ul.review-stars li.star {
     width:auto;
 }
 
+/* From home page css */
+
+/* Header */
+/* .top-bar {
+	border-bottom: 1px solid #e8ebf3;
+	background: linear-gradient(90deg, rgba(0,105,4,1) 0%, rgba(0,66,4,1) 0%, rgba(0,36,10,1) 90%);
+}
+.top-bar-left ul {
+	margin-bottom: 0;
+}
+.top-bar .top-bar-right {
+	float: right;
+}
+.top-bar .top-bar-left {
+	display: flex;
+}
+.top-bar .top-bar-left .socials li {
+	display: inline-block;
+	float: left;
+	font-size: 15px;
+	margin: 9px 15px;
+}
+.top-bar .top-bar-left .contact li {
+	margin: 10px 5px;
+	display: inline-block;
+	color: #070510;
+}
+.top-bar .select-country .select2-container.select2-container--default.select2-container--below.select2-container--open{
+	width: 150px !important;
+}
+.top-bar .top-bar-right {
+	display: flex;
+}
+.header-main .top-bar-right .custom {
+	display: flex;
+	margin: 0;
+}
+.header-main .top-bar-right .custom li {
+	margin-right: 15px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.header-main .top-bar-right .custom li:last-child {
+	margin-right: 0;
+} */
 
 
-
-
-
+/* Header end */
