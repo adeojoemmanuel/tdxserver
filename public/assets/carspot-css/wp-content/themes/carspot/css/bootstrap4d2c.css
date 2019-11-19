@@ -3490,7 +3490,7 @@ tbody.collapse.in {
 }
 .collapsing {
   position: relative;
-  height: 0;
+  height: auto!important;
   overflow: hidden;
   -webkit-transition-timing-function: ease;
        -o-transition-timing-function: ease;

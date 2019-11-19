@@ -7413,7 +7413,7 @@ a.delete i {
 .listingTopFilterBar {
     background: #fff none repeat scroll 0 0;
     box-shadow: 0 0 3px rgba(206, 206, 206, 0.36);
-    min-height: 60px;
+    min-height: 55px;
     border-color: #eee;
     border-radius: 0;
     margin-bottom: 30px
@@ -14369,6 +14369,10 @@ hr.accent-2 {
     padding-left: 12px!important;
     padding-right: 12px!important;
     flex: 0 0 25% !important;
+}
+.col-md-search-tx {
+    padding-right: 0px!important;
+    padding-left: 0px!important;
 }
 /* .horizontal-main {
     background: #fff;
