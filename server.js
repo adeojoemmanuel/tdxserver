@@ -41,6 +41,12 @@ app.get('/listlist',  (req,res)=>{
 app.get('/postad',  (req,res)=>{
 	res.sendFile(path.join(__dirname, 'public/tempview/postad.html'))
 })
+app.get('/categories',  (req,res)=>{
+	res.sendFile(path.join(__dirname, 'public/tempview/categories.html'))
+})
+app.get('/userprofile',  (req,res)=>{
+	res.sendFile(path.join(__dirname, 'public/tempview/userprofile.html'))
+})
 
 app.get("*", (req,res)=>{
 	res.sendFile(path.join(__dirname, 'public/tempview/index.html'))
