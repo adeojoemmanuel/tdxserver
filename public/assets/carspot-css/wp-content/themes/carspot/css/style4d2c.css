@@ -3146,7 +3146,8 @@ div.boxicon:last-child {
 }
 #carousel .flex-active-slide img {
     opacity: 1;
-    cursor: default
+    cursor: default;
+    border: 3px solid #4CAF50;
 }
 .panel {
     overflow: hidden;
@@ -9945,7 +9946,7 @@ footer.footer-bg {
 
 .singlemap-location .template-icons {
     background-color: #fff;
-    border: 1px solid #e5e5e5;
+    border: none!important;
     display: block;
     float: left;
     font-size: 14px;
@@ -13225,7 +13226,7 @@ body.rtl  .ecommerce-shop .mega-menu .menu-links {
     background-repeat: no-repeat;
     background-attachment: scroll;
     position: relative;
-    height:150px;
+    height:142px;
     margin-bottom:20px;
     margin-top:20px;
 
@@ -13274,6 +13275,7 @@ body.rtl  .ecommerce-shop .mega-menu .menu-links {
     display:block;
     color:#232323;
     font-weight:600;
+    font-family: 'Source Sans Pro';
 }
 .additional-btns ul li:nth-child(2) i {
     background-color: rgba(228, 64, 95, 1);	
@@ -13285,7 +13287,7 @@ body.rtl  .ecommerce-shop .mega-menu .menu-links {
 .additional-btns ul li i {
     background-color: rgb(255, 87, 0);
     color: #fff;
-    padding: 20px;
+    padding: 10px 20px;
     margin-right: 15px;
     font-size: 40px;
     position: relative;
@@ -13293,7 +13295,7 @@ body.rtl  .ecommerce-shop .mega-menu .menu-links {
     float:left;
 }	
 .additional-btns ul li a span {
-    line-height:80px;
+    line-height:62px;
 }
 .test-drive-modal .form-control, .make-offer-modal  .form-control {
     background-color: #f9f9f9;
@@ -14388,16 +14390,44 @@ hr.accent-2 {
     padding: 15px; 
     color: #fff!important;
     background-color: #4CAF50!important;
+    border: 2px solid #4CAF50!important;
 }
 .contact-seller:hover{
     background-color: #fff!important;
     border: 2px solid #4CAF50!important;
     color: #4CAF50!important;
 }
-/* .horizontal-main {
-    background: #fff;
-    padding: 1.25rem 0;
-} */
+.social-and-product-highlight {
+    background-color: #dedede;
+    padding: 4px 8px 16px;
+    margin-top: 10px;
+}
+.sidebar-tx.widget {
+    overflow: hidden;
+    position: relative;
+    border-color: #eee;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 0;
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+
+.tab-pane-tx a {
+    background: none!important;
+    color: #9a9a9a!important;
+}
+
+.tab-pane-tx a.active {
+    /* background: none!important; */
+    color: #000!important;
+}
+.tab-pane-tx.active {
+    border-bottom: 3px solid #4CAF50!important;
+    color: #000!important;
+    font-weight: 700;
+}
+
 
 
 
