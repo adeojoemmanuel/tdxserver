@@ -5845,7 +5845,7 @@ fieldset[disabled] .btn-purple.active {
     opacity: .5
 }
 .no-touch .cd-top:hover {
-    background-color: #e86256;
+    background-color: #4CAF50!important;
     opacity: 1
 }
 .happy-clients-area {
@@ -9298,6 +9298,13 @@ footer.footer-bg {
 .short-features .categories-exist a:last-child:after {
     content:"";
 }
+
+/* .short-features  strong {
+    font-weight: 600!important;
+}
+.short-features  span {
+    font-weight: 400!important;
+} */
 .page-search .grid-card {
     background: inherit;
     box-shadow: none;
@@ -14416,9 +14423,10 @@ hr.accent-2 {
 .tab-pane-tx a {
     background: none!important;
     color: #9a9a9a!important;
+    font-size: 16px;
 }
 
-.tab-pane-tx a.active {
+.tab-pane-tx.active a {
     /* background: none!important; */
     color: #000!important;
 }
@@ -14426,6 +14434,18 @@ hr.accent-2 {
     border-bottom: 3px solid #4CAF50!important;
     color: #000!important;
     font-weight: 700;
+}
+
+.tab-title {
+    font-size: 20px;
+    color: #232323; 
+    font-weight: 600; 
+    display: block; 
+    margin-bottom: 16px;
+}
+
+.similar-ads-picture-thumbnails.active {
+    border: 3px solid #4CAF50;
 }
 
 
