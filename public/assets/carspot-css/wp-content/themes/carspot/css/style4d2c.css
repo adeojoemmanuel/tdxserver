@@ -7490,6 +7490,15 @@ ul.listingViewIcon li.shortByListingLi ul li a {
     font-size:20px;
 }
 
+.hot-ribbon {
+    position: absolute;
+    left: 20px;
+    text-align: left;
+    top: 20px;
+    width: 35px;
+    z-index: 1
+}
+
 .featured-ribbon {
     height: 75px;
     overflow: hidden;
@@ -9839,8 +9848,8 @@ footer.footer-bg {
     line-height: 60px;
     padding: 0 30px;
     color: #fff;
-    background-color: #bf1919;
-    text-shadow: 1px 1px 1px #921313;
+    background-color: #4CAF50;
+    text-shadow: 1px 1px 1px #4CAF50;
     font-weight: bold;
     font-size: 32px;
     text-indent: -6px;
@@ -9859,9 +9868,9 @@ footer.footer-bg {
     height: 0;
     border-top: 30px solid transparent;
     border-bottom: 30px solid transparent;
-    border-right: 30px solid #bf1919;
+    border-right: 30px solid #4CAF50;
 }
-.singleprice-tag::after {
+/* .singleprice-tag::after {
     content: "";
     position: absolute;
     top: 10%;
@@ -9871,7 +9880,7 @@ footer.footer-bg {
     border-radius: 2.5px;
     background-color: #cecece;
     box-shadow: inset -1px 1px 0 #8e8e8e;
-}
+} */
 
 /* Build the price tag animation */
 /*
@@ -13210,7 +13219,7 @@ body.rtl  .ecommerce-shop .mega-menu .menu-links {
     background-color:#f9f9f9;	
 }
 .fule-economy {
-    background: url(../images/fule-economy-bg.png);
+    background: url(../images/product-highlight.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -13218,6 +13227,7 @@ body.rtl  .ecommerce-shop .mega-menu .menu-links {
     position: relative;
     height:150px;
     margin-bottom:20px;
+    margin-top:20px;
 
     padding:15px;
 }
@@ -14373,6 +14383,16 @@ hr.accent-2 {
 .col-md-search-tx {
     padding-right: 0px!important;
     padding-left: 0px!important;
+}
+.contact-seller {
+    padding: 15px; 
+    color: #fff!important;
+    background-color: #4CAF50!important;
+}
+.contact-seller:hover{
+    background-color: #fff!important;
+    border: 2px solid #4CAF50!important;
+    color: #4CAF50!important;
 }
 /* .horizontal-main {
     background: #fff;
