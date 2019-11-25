@@ -1,9 +1,518 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>login</title>
-</head>
-<body>
-	<h1>login page</h1>
-</body>
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Meta data -->
+		<meta charset="UTF-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="Trade Explorer Ads listing, ecommerce" name="description">
+		<meta content="Trade Explorer Ads listing, ecommerce" name="author">
+		<meta name="keywords" content="Trade Explorer Ads listing, ecommerce"/>
+
+		<!-- Favicon -->
+		<!-- <link rel="icon" href="favicon.ico" type="image/x-icon"/> -->
+		<!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> -->
+
+		<!-- Title -->
+		<title>Login </title>
+
+		<!-- Bootstrap Css -->
+		<link href="../assets/plugins/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet" />
+
+		<!-- Style css -->
+		<link href="../assets/css/style.css" rel="stylesheet" />
+
+		<!-- Font-awesome  Css -->
+		<link href="../assets/css/icons.css" rel="stylesheet"/>
+
+		<!--Horizontal Menu-->
+		<link href="../assets/plugins/horizontal-menu/horizontal.css" rel="stylesheet" />
+
+		<!--Select2 Plugin -->
+		<link href="../assets/plugins/select2/select2.min.css" rel="stylesheet" />
+
+		<!-- Cookie css -->
+		<link href="../assets/plugins/cookie/cookie.css" rel="stylesheet">
+
+		<!-- Owl Theme css-->
+		<link href="../assets/plugins/owl-carousel/owl.carousel.css" rel="stylesheet" />
+
+		<!-- Custom scroll bar css-->
+		<link href="../assets/plugins/scroll-bar/jquery.mCustomScrollbar.css" rel="stylesheet" />
+
+		<!-- Color skin-->
+		<link id="theme" rel="stylesheet" type="text/css" media="all" href="../assets/skins/color-skins/color15.css" />
+
+		<link id="theme" rel="stylesheet" type="text/css" media="all" href="../assets/css/flaticon24d2c.css" />
+		<!-- Slick - Ken wheeler -->
+		<link id="theme" rel="stylesheet" type="text/css" media="all" href="../assets/plugins/slick-1.8.1/slick-1.8.1/slick/slick.css" />
+		<link id="theme" rel="stylesheet" type="text/css" media="all" href="../assets/plugins/slick-1.8.1/slick-1.8.1/slick/slick-theme.css" />
+
+		<!-- Carspot styles -->
+		<!-- <link id="theme" rel="stylesheet" type="text/css" media="all" href="../assets/css-from-carspot/video_player4d2c.css?ver=5.2.4" />
+		<link id="theme" rel="stylesheet" type="text/css" media="all" href="../assets/css-from-carspot/style4d2c.css?ver=5.2.4" />
+		<link rel='stylesheet' id='bootstrap-css'  href='../assets/css-from-carspot/bootstrap4d2c.css?ver=5.2.4' type='text/css' media='all' />
+		<link rel='stylesheet' id='carspot-theme-css'  href='../assets/css-from-carspot/style4d2c.css?ver=5.2.4' type='text/css' media='all' />
+		<link rel='stylesheet' id='carspot-jquery-confirm-css'  href='../assets/css-from-carspot/user-dashboard/jquery-confirm4d2c.css?ver=5.2.4' type='text/css' media='all' />
+		<link rel='stylesheet' id='carspot-datepicker-css'  href='../assets/css-from-carspot/datepicker.min4d2c.css?ver=5.2.4' type='text/css' media='all' />
+		<link rel='stylesheet' id='carspot-theme-slug-fonts-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic,700,700italic,900italic,900,300,300italic%7CPoppins:400,500,600&amp;subset=latin,latin-ext' type='text/css' media='all' />
+		<link rel='stylesheet' id='et-line-fonts-css'  href='../assets/css-from-carspot/et-line-fonts4d2c.css?ver=5.2.4' type='text/css' media='all' />
+		<link rel='stylesheet' id='font-awesome-css'  href='../../wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min52c7.css?ver=6.0.5' type='text/css' media='all' />
+		<link rel='stylesheet' id='line-awesome-css'  href='../assets/css-from-carspot/line-awesome.min4d2c.css?ver=5.2.4' type='text/css' media='all' />
+		<link rel='stylesheet' id='animate-css'  href='../assets/css-from-carspot/animate.min4d2c.css?ver=5.2.4' type='text/css' media='all' />
+		<link rel='stylesheet' id='flaticon-css'  href='../assets/css-from-carspot/flaticon4d2c.css?ver=5.2.4' type='text/css' media='all' />
+		<link rel='stylesheet' id='flaticon2-css'  href='../assets/css-from-carspot/flaticon24d2c.css?ver=5.2.4' type='text/css' media='all' />
+		<link rel='stylesheet' id='custom-icons-css'  href='../assets/css-from-carspot/custom_icons4d2c.css?ver=5.2.4' type='text/css' media='all' />
+		<link rel='stylesheet' id='carspot-select2-css'  href='../assets/css-from-carspot/css/select2.min4d2c.css?ver=5.2.4' type='text/css' media='all' />
+		<link rel='stylesheet' id='nouislider-css'  href='../assets/css-from-carspot/nouislider.min4d2c.css?ver=5.2.4' type='text/css' media='all' />
+		<link rel='stylesheet' id='owl-carousel-css'  href='../assets/css-from-carspot/owl.carousel4d2c.css?ver=5.2.4' type='text/css' media='all' />
+		<link rel='stylesheet' id='owl-theme-css'  href='../assets/css-from-carspot/owl.theme4d2c.css?ver=5.2.4' type='text/css' media='all' />
+		<link rel='stylesheet' id='carspot-custom-css'  href='../assets/css-from-carspot/custom4d2c.css?ver=5.2.4' type='text/css' media='all' />
+		<link rel='stylesheet' id='toastr-css'  href='../assets/css-from-carspot/toastr.min4d2c.css?ver=5.2.4' type='text/css' media='all' />
+		<link rel='stylesheet' id='carspot-woo-css'  href='../assets/css-from-carspot/woocommerce4d2c.css?ver=5.2.4' type='text/css' media='all' />
+		<link rel='stylesheet' id='minimal-css'  href='../../wp-content/themes/carspot/skins/minimal/minimal4d2c.css?ver=5.2.4' type='text/css' media='all' />
+		<link rel='stylesheet' id='fancybox2-css'  href='../assets/css-from-carspot/jquery.fancybox.min4d2c.css?ver=5.2.4' type='text/css' media='all' />
+		<link rel='stylesheet' id='slider-css'  href='../assets/css-from-carspot/slider4d2c.css?ver=5.2.4' type='text/css' media='all' />
+		<link rel='stylesheet' id='carspot-menu-css'  href='../assets/css-from-carspot/carspot-menu4d2c.css?ver=5.2.4' type='text/css' media='all' />
+		<link rel='stylesheet' id='responsive-media-css'  href='../assets/css-from-carspot/responsive-media4d2c.css?ver=5.2.4' type='text/css' media='all' />
+		<link rel='stylesheet' id='defualt-color-css'  href='../assets/css-from-carspot/colors/defualt.css' type='text/css' media='all' /> -->
+	</head>
+
+	<body class="reg-page">
+
+		<!--Loader-->
+		<div id="global-loader">
+			<img src="../assets/images/loader.svg" class="loader-img" alt="">
+		</div>
+
+		<!--Topbar-->
+		<div class="header-main">
+			<div class="top-bar">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-8 col-lg-8 col-sm-4 col-6">
+							<div class="top-bar-left d-flex">
+								<div class="clearfix">
+								</div>
+								<div class="clearfix">
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-sm-8 col-6">
+							<div class="top-bar-right">
+								<ul class="custom">
+									<li>
+										<a routerLink="/register" href="register.html" class="text-dark text-white"><i class="fa fa-user mr-1"></i> <span>Register</span></a>
+									</li>
+									<li>
+										<a routerLink="/login" href="login.html" class="text-dark text-white"><i class="fa fa-sign-in mr-1"></i> <span>Login</span></a>
+									</li>
+									<li>
+										<a routerLink="/login" href="#" class="btn btn-tx btn-theme text-dark post-ad-header-tx"> POST AN AD</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/Topbar-->
+		
+		</div>
+		<!--/Horizontal-main -->
+
+		<!-- Main-content -->
+		<section class="main-content-reg-tx">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<div class="form-box">
+							<h2 class="form-box-title">
+								<div class="row">
+									<div class="col-md-5"></div>
+									<div class="col-md-3">
+										<img class="" src="../assets/images/brand/tradexplora-main.svg">
+									</div>
+									<div class="col-md-4"></div>
+									<!-- <div class="col-md-8" style="padding: 0.625rem;">
+											Login
+									</div> -->
+								</div>
+								
+								  
+							</h2>
+							<div class="row">
+								<div class="col-sm-12">
+									<form action="" class="form-horizontal">
+										<div class="form-group form-group-tx row">
+											<label for="" class="col-md-4 control-label">
+												<!-- You are a <sup>*</sup> -->
+											</label>
+											<!-- <div class="col-md-6" >
+												<div class="social-media-button">
+													<button class="btn btn-block btn-reg facebook-reg"> <i class="fa fa-facebook fa-2x"></i> Signup with Facebook</button>
+												</div>
+												<div class="social-media-button">
+													<button class="btn btn-block btn-reg google-reg"> <i class="fa fa-google-plus fa-2x"></i> Signup with Google</button>
+												</div>
+											</div> -->
+											<div class="col-md-6">
+												<div class="row">
+													<div class="col-md-6">
+															<div class="social-media-button">
+																	<button class="btn btn-block btn-reg facebook-reg"> <i class="fa fa-facebook fa-2x"></i> Login </button>
+																</div>
+													</div>
+													<div class="col-md-6">
+															<div class="social-media-button">
+																	<button class="btn btn-block btn-reg google-reg"> <i class="fa fa-google-plus fa-2x"></i> Login</button>
+																</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-4"></div>
+											<div class="col-md-6">
+												<div class="bc-auth-card__form-separator"></div>
+											</div>
+										</div>
+										
+										<div class="form-group form-group-tx row">
+												<label for="" class="col-md-4 control-label">
+													Name 
+												</label>
+												<div class="col-md-6">
+													<div class="radio">
+														<input name="" placeholder="First Name" class="form-control input-md" required="" type="text">
+													</div>
+													
+												</div>
+										</div>
+										<!-- <div class="form-group form-group-tx row">
+												<label for="" class="col-md-4 control-label">
+													Last Name <sup>*</sup>
+												</label>
+												<div class="col-md-6">
+													<div class="radio">
+														<input name="" placeholder="Last Name" class="form-control input-md" required="" type="text">
+													</div>
+													
+												</div>
+										</div> -->
+										<!-- <div class="form-group form-group-tx row">
+											<label class="col-md-4 control-label">Phone Number <sup>*</sup></label>
+
+											<div class="col-md-6">
+												<input name="" placeholder="Phone Number" class="form-control input-md" type="text">
+
+												<div class="checkbox">
+													<label>
+														<input type="checkbox" value="" style="opacity: 1; margin-top: 5px">
+														<small> Hide the phone number on published ads.</small>
+													</label>
+												</div>
+											</div>
+										</div> -->
+										<!-- <div class="form-group form-group-tx row">
+											<label for="" class="col-md-4 control-label">
+												Gender
+											</label>
+											<div class="col-md-6">
+												<div class="radio">
+													<label for="">
+														<input type="radio" name="gender" id="female" value="option3" checked=""> Female
+													</label>
+												</div>
+												<div class="radio">
+													<label for="">
+														<input type="radio" name="gender" id="male" value="option4"> Male
+													</label>
+												</div>
+											</div>
+										</div> -->
+										<!-- <div class="form-group form-group-tx row">
+											<label class="col-md-4 control-label" for="textarea">About Yourself</label>
+
+											<div class="col-md-6">
+												<textarea class="form-control" id="textarea" name="textarea">About Yourself</textarea>
+											</div>
+										</div> -->
+										<!-- <div class="form-group form-group-tx row">
+											<label for="" class="col-md-4 control-label">
+												Email <sup>*</sup>
+											</label>
+											<div class="col-md-6">
+												<div class="radio">
+													<input name="" placeholder="Email" class="form-control input-md" required="" type="text">
+												</div>
+												
+											</div>
+										</div> -->
+										<div class="form-group form-group-tx row">
+											<label for="" class="col-md-4 control-label">
+												Password
+											</label>
+											<div class="col-md-6">
+												<div class="radio">
+													<input name="" placeholder="Password" class="form-control input-md" required="" type="password">
+													<!-- <small id="passwordHelpBlock" class="form-text text-muted">At least 5 characters</small> -->
+												</div>
+												
+											</div>
+										</div>
+										<div class="form-group form-group-tx row">
+											<label class="col-md-4 control-label"></label>
+
+											<div class="col-md-8">
+												<!-- <div class="termbox mb10">
+													<div class="col-auto col-tx my-1 no-padding">
+														<div class="custom-control custom-checkbox mr-sm-2">
+															<input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+															<label class="custom-control-label" for="customControlAutosizing">  <span class="custom-control-description"> I have read and agree to the <a href="terms-conditions.html" style="color: #4CAF50;">Terms
+														&amp; Conditions</a> </span></label>
+														</div>
+													</div>
+
+												</div> -->
+												<div style="clear:both"></div>
+												<div class="row">
+													<div class="col-md-9">
+														<a class="btn btn-block btn-primary btn-register-tx" href="account-home.html">Register</a></div>
+													</div>
+												</div>
+												
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2"></div>
+					<!-- <div class="col-md-4 reg-sidebar">
+						<div class="reg-sidebar-inner text-center">
+							<div class="promo-text-box"><i class=" icon-picture fa fa-4x icon-color-1"></i>
+	
+								<h3><strong>Post a Free Classified</strong></h3>
+	
+								<p> Post your free online classified ads with us. Lorem ipsum dolor sit amet, consectetur
+									adipiscing elit. </p>
+							</div>
+							<div class="promo-text-box"><i class=" fa fa-pencil-square fa-4x icon-color-2"></i>
+	
+								<h3><strong>Create and Manage Items</strong></h3>
+	
+								<p> Nam sit amet dui vel orci venenatis ullamcorper eget in lacus.
+									Praesent tristique elit pharetra magna efficitur laoreet.</p>
+							</div>
+							<div class="promo-text-box"><i class=" fa fa-heart fa-4x icon-color-3"></i>
+	
+								<h3><strong>Create your Favorite ads list.</strong></h3>
+	
+								<p> PostNullam quis orci ut ipsum mollis malesuada varius eget metus.
+									Nulla aliquet dui sed quam iaculis, ut finibus massa tincidunt.</p>
+							</div>
+						</div>
+					</div> -->
+				</div>
+			</div>
+		</section>
+		<!--/ Main-content -->
+		<!--Footer Section-->
+		<section>
+			<footer class="footer-bg">
+				<div class="footer-main">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-3 col-md-12">
+								<a href="../../../index.html" >
+									<img src="../../../assets/images/footer-logo.png" class="img-responsive" alt="Site logo" style="margin-bottom: 1rem">
+								</a>
+								<hr class="deep-purple  accent-2 mb-4 mt-0 d-inline-block mx-auto">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+								<ul class="apps-donwloads">
+									<li style="display: inline-block; margin: 0 4px 4px 0;">
+										<a href="#"><img src="../assets/images/appstore.png" alt="Android App"></a>
+									</li>
+									<li style="display: inline-block; margin: 0 4px 4px 0;">
+										<a href="#"><img src="../assets/images/googleplay.png" alt="IOS App"></a>
+									</li>                      
+								</ul>
+							</div>
+							
+		
+							<div class="col-lg-2 col-md-12">
+								<h6>Follow Us</h6>
+								<hr class="deep-purple  text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+								<ul class="list-unstyled mb-0">
+									<li class="contact-us-tx">
+										<a class="Facebook btn-floating btn-sm rgba-white-slight mx-1 waves-effect waves-light" href="#">
+											<i class="fa fa-facebook bg-facebook"></i>
+										</a><span><a  href="#">Facebook</a></span>
+									</li>
+									<li class="contact-us-tx">
+										<a class="Twitter btn-floating btn-sm rgba-white-slight mx-1 waves-effect waves-light" href="#">
+											<i class="fa fa-twitter bg-info"></i>
+										</a><span><a  href="#">Twitter</a></span>
+									</li>
+									<li class="contact-us-tx">
+										<a class="Linkedin btn-floating btn-sm rgba-white-slight mx-1 waves-effect waves-light" href="#">
+											<i class="fa fa-linkedin bg-linkedin"></i>
+										</a><span><a  href="#">Linkedin</a></span>
+									</li>
+									<li class="contact-us-tx">
+										<a class="Google btn-floating btn-sm rgba-white-slight mx-1 waves-effect waves-light" href="#">
+											<i class="fa fa-google-plus bg-danger-tx"></i>
+										</a><span><a  href="#">Google</a></span>
+									</li>	
+								</ul>
+								
+							</div>
+							
+							<div class="col-lg-2 col-md-12">
+								<h6>Quick Links</h6>
+								 <hr class="deep-purple text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+								<ul class="list-unstyled mb-0">
+									<li><a href="javascript:;">Home</a></li>
+									<li><a href="javascript:;">About Us</a></li>
+									<li><a href="javascript:;">Contant Us</a></li>
+									<li><a href="javascript:;">FAQ</a></li>
+									<li><a href="javascript:;">Regions</a></li>
+									<li><a href="javascript:;">Terms</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-5 col-md-12">
+								<h6>Subscribe</h6>
+								<hr class="deep-purple  text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+								<p>We may send you information about related events, webinars, products and services which we believe.</p>
+								<div class="clearfix"></div>
+								<div class="input-group w-100">
+									<input type="text" class="form-control form-control-tx br-tl-3  br-bl-3 " placeholder="Email">
+									<div class="input-group-append ">
+										<button type="button" class="btn btn-primary br-tr-3  br-br-3"> SUBSCRIBE </button>
+									</div>
+								</div>
+								<!-- <div class="mt-5">Copyright © 2019 <a href="#" class="fs-14 text-primary-tx" style="color: #00BF8F !important;">Tradexplora</a>.</div> -->
+								<div>
+									<ul class="footer-payments" style="margin-top: 27px;">
+										<li class="pl-0" style=" width: 105px;"><a href="javascript:;"><img  src="../assets/images/Interswitch Logo.svg" ></a></li>
+										<li style=" width: 120px;"><a href="javascript:;"><img src="../assets/images/paystack-02.jpg" ></a></li>
+										<li ><a href="javascript:;"><img class="payment-card-icon-tx" src="../assets/images/visa_card.png" ></a></li>
+										<li ><a href="javascript:;"><img class="payment-card-icon-tx" src="../assets/images/master_card.png" ></a></li>
+										<li style=" width: 88px!important;"><a href="javascript:; "><img src="../assets/images/varve-logo-2.png" ></a></li>
+									</ul>
+									<!-- <div class="mt-0">Copyright © 2019 <a href="#" class="fs-14 text-primary-tx" style="color: #00BF8F !important;">Tradexplora</a>.</div> -->
+								</div>
+								
+							</div>
+							
+						</div>
+						
+						<div class="text-center payment-card-spacing-tx">
+							<div class="mt-0">Copyright © 2019 <a href="#" class="fs-14 text-primary-tx" style="color: #4CAF50 !important;">Tradexplora</a>. All rights reserved</div>
+						</div>
+						
+						<!-- <div class="row d-flex">
+							<div class="col-lg-12 col-sm-12 mt-3 mb-3 text-center ">
+								Copyright © 2019 <a href="#" class="fs-14 text-primary">Tradexplora</a>. 
+							</div>
+						</div> -->
+					</div>
+					<!-- <div class=" p-0 payment-card-tx">
+						<div class="container">
+							<div class="row d-flex">
+								<div class="col-lg-12 col-sm-12 mt-3 mb-3 text-center payment-card-spacing-tx">
+										
+									<ul class="footer-payments">
+										<li class="pl-0"><a href="javascript:;"><i class="fa fa-cc-amex text-muted payment-card-icon-tx" aria-hidden="true"></i></a></li>
+										<li><a href="javascript:;"><i class="fa fa-cc-visa text-muted payment-card-icon-tx" aria-hidden="true"></i></a></li>
+										<li><a href="javascript:;"><i class="fa fa-credit-card-alt text-muted payment-card-icon-tx" aria-hidden="true"></i></a></li>
+										<li><a href="javascript:;"><i class="fa fa-cc-mastercard text-muted payment-card-icon-tx" aria-hidden="true"></i></a></li>
+										<li><a href="javascript:;"><i class="fa fa-cc-paypal text-muted payment-card-icon-tx" aria-hidden="true"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class=" p-0">
+						<div class="container">
+							<div class="row d-flex">
+								<div class="col-lg-12 col-sm-12 mt-3 mb-3 text-center ">
+									Copyright © 2019 <a href="#" class="fs-14 text-primary">Tradexplora</a>. 
+								</div>
+							</div>
+						</div>
+					</div> -->
+				</div>
+				
+			</footer>
+		</section>
+		<!--/Footer Section-->
+
+		<!-- Back to top -->
+		<!-- <a href="#top" id="back-to-top" ><i class="fa fa-rocket"></i></a> -->
+
+		<!-- JQuery js-->
+		<script src="../assets/js/vendors/jquery-3.2.1.min.js"></script>
+
+		<!-- Bootstrap js -->
+		<script src="../assets/plugins/bootstrap-4.3.1-dist/js/popper.min.js"></script>
+		<script src="../assets/plugins/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+
+		<!--JQuery Sparkline Js-->
+		<script src="../assets/js/vendors/jquery.sparkline.min.js"></script>
+
+		<!-- Circle Progress Js-->
+		<script src="../assets/js/vendors/circle-progress.min.js"></script>
+
+		<!-- Star Rating Js-->
+		<script src="../assets/plugins/rating/jquery.rating-stars.js"></script>
+
+		<!--Counters -->
+		<script src="../assets/plugins/counters/counterup.min.js"></script>
+		<script src="../assets/plugins/counters/waypoints.min.js"></script>
+		<script src="../assets/plugins/counters/numeric-counter.js"></script>
+
+		<!-- Slick -->
+		<script src="../assets/plugins/slick-1.8.1/slick-1.8.1/slick/slick.js"></script>
+
+		<!--Owl Carousel js -->
+		<script src="../assets/plugins/owl-carousel/owl.carousel.js"></script>
+
+		<!--Horizontal Menu-->
+		<script src="../assets/plugins/horizontal-menu/horizontal.js"></script>
+
+		<!--JQuery TouchSwipe js-->
+		<script src="../assets/js/jquery.touchSwipe.min.js"></script>
+
+		<!--Select2 js -->
+		<script src="../assets/plugins/select2/select2.full.min.js"></script>
+		<script src="../assets/js/select2.js"></script>
+
+		<!-- sticky Js-->
+		<script src="../assets/js/sticky.js"></script>
+
+		<!-- Cookie js -->
+		<script src="../assets/plugins/cookie/jquery.ihavecookies.js"></script>
+		<script src="../assets/plugins/cookie/cookie.js"></script>
+
+        <!-- Custom scroll bar Js-->
+		<script src="../assets/plugins/scroll-bar/jquery.mCustomScrollbar.concat.min.js"></script>
+
+		<!--Showmore Js-->
+		<script src="../assets/js/jquery.showmore.js"></script>
+		<script src="../assets/js/showmore.js"></script>
+
+		<!-- Swipe Js-->
+		<script src="../assets/js/swipe.js"></script>
+
+		<!-- Scripts Js-->
+		<script src="../assets/js/owl-carousel.js"></script>
+
+		<!-- Custom Js-->
+		<script src="../assets/js/custom.js"></script>
+		
+
+	</body>
 </html>
