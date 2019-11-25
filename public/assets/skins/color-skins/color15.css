@@ -859,10 +859,10 @@
 	background-color: #ed5151   !important
 }
  .owl-carousel button.owl-dot {
-	background: rgb(105, 99, 255, 0.3) !important;
+	background: rgb(105, 99, 255, 0.3);
 }
  .owl-carousel button.owl-dot.active {
-	background: #9c31df!important;
+	background: #9c31df;
 }
  .bg-background:before {
 	background: linear-gradient(-225deg, rgba(74, 61, 184, 0.8) 48%, rgba(50, 228, 179, 0.8) 100%);
