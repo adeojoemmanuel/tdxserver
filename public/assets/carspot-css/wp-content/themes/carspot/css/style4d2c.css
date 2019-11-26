@@ -14481,8 +14481,7 @@ hr.accent-2 {
 }
 
 /* .category-grid-box-tx {
-    width: 18rem;
-    height: 22rem;
+   border-radius: 8px!important;
 } */
 
 .col-grid-tx {
@@ -14654,6 +14653,119 @@ hr.accent-2 {
     right: 24px
 }
 
+.arrow-ribbon {
+	color: #fff;
+	padding: 2px 8px;
+	position: absolute;
+	top: 10px;
+	left: 0;
+	z-index: 98;
+	font-size: 18px;
+}
+
+.arrow-ribbon.bg-primary:before {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	content: "";
+	right: -15px;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	width: 0;
+}
+
+.price-tag-tx {
+    background-color: rgba(160, 160, 160, 0.5)!important;
+}
+
+.price-tag-tx span{
+    background-color: rgba(160, 160, 160, 0.5)!important;
+}
+
+.grid-list {
+    display: inline-block;
+    position: absolute;
+    top: 14px;
+}
+
+.product-arrangement-icon {
+   padding: 0px 5px;
+}
+
+.camera-icon {
+    font-size: 18px!important;
+    color: #fff;
+}
+
+.button-reveal-btn {
+    background-color: rgba(76, 175, 80, 0.5);
+    color: #fff!important;
+    font-weight: 600!important;
+    display: none;
+}
+
+.icon-reveal-btn {
+    background-color: #fff;
+    color: #a0a0a0!important;
+    font-size: 20px;
+    font-weight: 600!important;
+    display: none;
+}
+
+.category-grid-box-1:hover .button-reveal-btn {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.category-grid-box-1:hover .icon-reveal-btn {
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    right: 0;
+}
+
+.button-reveal-btn:hover {
+    background-color: rgba(76, 175, 80, 1);
+}
+
+.icon-reveal-btn:hover {
+    color: #232323!important;
+    font-weight: 700;
+}
+
+.value-added-services-listings {
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 5px 15px 0 rgba(42,51,83,.12),0 2px 8px rgba(0,0,0,.06)!important;
+    padding: 2px 0px 4px;
+    border-radius: 4px;
+}
+
+.value-added-services-listings:hover {
+    box-shadow: 0 15px 35px 0 rgba(42,51,83,.12),0 5px 15px rgba(0,0,0,.06)!important;
+    cursor: pointer;
+}
+
+.icon-head {
+    background-color: #4CAF50;
+    margin: 8px auto;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    text-align: center;   
+}
+
+.value-added-services-listings p {
+    font-weight: 600;
+}
+
+.pd-t-b {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 /* .owl-item {
     margin: 0 80px!important;
 } */
