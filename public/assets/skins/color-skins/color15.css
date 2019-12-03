@@ -97,8 +97,8 @@
 	background-color: #ed5151   ;
 }
  .badge-primary {
-	color: #fff;
-	background-color: #232323ba!important;
+	color: #232323ba;
+    background-color: rgba(35, 35, 35, 0.1)!important;
 }
  .badge-primary[href]:hover,   .badge-primary[href]:focus {
 	color: #fff;
@@ -128,112 +128,112 @@
 	color: #f34b4b !important;
 }
  a.text-dark:hover,   a.text-dark:focus {
-	color: #00BF8F    !important;
+	color: #4CAF50    !important;
 }
   .social-box.linkedin i {
-	background: #ed5151 ;
+	background: #4CAF50  ;
 }
  .checkbox span:after {
-	background-color: #ed5151;
+	background-color: #4CAF50 ;
 }
  .user-card .card-block .activity-leval li.active {
-	background-color: #ed5151;
+	background-color: #4CAF50 ;
 }
  #count-down .clock-presenter .digit {
-	background: #ed5151;
+	background: #4CAF50 ;
 }
  .masthead .masthead-bg {
-	background: linear-gradient(120deg, #0f75ff 0%, #ed5151    100%);
+	background: linear-gradient(120deg, #0f75ff 0%, #4CAF50     100%);
 }
  .notifyimg {
-	background: #ed5151;
+	background: #4CAF50 ;
 }
  .drop-icon-wrap .drop-icon-item:hover {
-	color: #ed5151;
+	color: #4CAF50 ;
 }
  .dropdown-item:hover, .dropdown-item:focus {
-	color: #ed5151   ;
+	color: #4CAF50    ;
 }
 .dropdown-item.active, .dropdown-item:active {
-	color: #ed5151   ;
+	color: #4CAF50   ;
 }
  .timeline__item:after {
-	border: 6px solid #ed5151   ;
+	border: 6px solid #4CAF50    ;
 }
  .custom-control-input:checked~.custom-control-label::before {
-	background-color: #ed5151   ;
+	background-color: #4CAF50    ;
 }
  .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
-	background-color: #ed5151   ;
+	background-color: #4CAF50    ;
 }
  .custom-checkbox .custom-control-input:indeterminate~.custom-control-label::before {
-	background-color: #ed5151   ;
+	background-color: #4CAF50!important ;
 }
  .custom-radio .custom-control-input:checked~.custom-control-label::before {
-	background-color: #ed5151   ;
+	background-color: #4CAF50!important;
 }
  .custom-select:focus {
-	border-color: #ed5151   ;
+	border-color: #4CAF50    ;
 }
  .custom-file-input:focus~.custom-file-label {
-	border-color: #ed5151   ;
+	border-color: #4CAF50   ;
 }
  .custom-file-input:focus~.custom-file-label::after {
 	border-color: #ed5151   ;
 }
  .custom-file-label::after {
-	background-color: #ed5151   ;
-	border-left: 1px solid #ed5151   ;
+	background-color: #4CAF50   ;
+	border-left: 1px solid #4CAF50   ;
 }
  .custom-range::-webkit-slider-thumb {
-	background-color: #ed5151   ;
+	background-color: #4CAF50    ;
 }
  .custom-range::-moz-range-thumb {
-	background-color: #ed5151   ;
+	background-color: #4CAF50    ;
 }
  .custom-range::-ms-thumb {
-	background-color: #ed5151   ;
+	background-color: #4CAF50    ;
 }
  .nav-link.active {
-	background-color: #ed5151   ;
+	background-color: #4CAF50    ;
 }
  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-	background-color: #ed5151   ;
+	background-color: #4CAF50    ;
 }
  .page-link:hover {
-	color: #ed5151   ;
+	color: #4CAF50    ;
 }
  .page-item.active .page-link {
-	background-color: #ed5151   ;
-	border-color: #ed5151   ;
+	background-color: #4CAF50    ;
+	border-color: #4CAF50    ;
 }
  .range.range-primary input[type="range"]::-webkit-slider-thumb {
-	background-color: #ed5151   ;
+	background-color: #4CAF50    ;
 }
  .range.range-primary input[type="range"]::-moz-slider-thumb {
-	background-color: #ed5151   ;
+	background-color: #4CAF50   ;
 }
  .range.range-primary output {
-	background-color: #ed5151   ;
+	background-color: #4CAF50   ;
 }
  .range.range-primary input[type="range"] {
-	outline-color: #ed5151   ;
+	outline-color: #4CAF50    ;
 }
  .nav-tabs .nav-item1 .nav-link:hover:not(.disabled) {
-	background: #ed5151   ;
+	background: #4CAF50  ;
 }
  .nav-tabs .nav-item1 .nav-link.active {
-	background: #ed5151   ;
+	background: #4CAF50    ;
 }
  .panel.price>.panel-heading {
-	background: #ed5151   ;
+	background: #4CAF50   ;
 	color: #fff;
 }
  .panel.price>.panel-heading {
-	background: #ed5151   ;
+	background: #4CAF50    ;
 }
  .heading-primary {
-	background-color: #ed5151   ;
+	background-color: #4CAF50   ;
 }
  .page-header .breadcrumb-item a {
 	color: #070510;
@@ -300,7 +300,7 @@
  .error-img .form-control:focus {
 	color: #fff;
 	background-color: rgba(255, 255, 255, 0.2);
-	border-color: #ed5151   ;
+	border-color: #4CAF50   ;
 }
  .avatar {
 	background: #ed5151    no-repeat center/cover;
@@ -348,20 +348,20 @@
 	background: #f6f7fb;
 }
  .selectgroup-input:focus+.selectgroup-button {
-	border-color: #ed5151   ;
+	border-color: #4CAF50   ;
 	z-index: 2;
-	color: #ed5151   ;
+	color: #4CAF50   ;
 	box-shadow: 0 0 0 2px rgb(105, 99, 255, 0.25);
 }
  .custom-switch-input:checked~.custom-switch-indicator {
-	background: #ed5151   ;
+	background: #4CAF50   ;
 }
  .custom-switch-input:focus~.custom-switch-indicator {
 	box-shadow: 0 0 0 2px rgb(105, 99, 255, 0.25);
-	border-color: #ed5151   ;
+	border-color: #4CAF50   ;
 }
  .imagecheck-input:focus~.imagecheck-figure {
-	border-color: #ed5151   ;
+	border-color: #4CAF50   ;
 	box-shadow: 0 0 0 2px rgb(105, 99, 255, 0.25);
 }
  .imagecheck-figure:before {
@@ -390,31 +390,31 @@
 	background: #ed5151   ;
 }
  .tabs-menu1 ul li .active {
-	border: 1px solid #ed5151   ;
-	color: #ed5151   ;
+	border: 1px solid #4CAF50   ;
+	color: #4CAF50   ;
 }
  .wideget-user-tab .tabs-menu1 ul li .active {
-	border-bottom: 2px solid #ed5151    !important;
+	border-bottom: 2px solid #4CAF50    !important;
 }
  .rating-stars .rating-stars-container .rating-star.is--active .fa-heart, .rating-stars .rating-stars-container .rating-star.is--hover .fa-heart {
-	color: #ed5151   ;
+	color: #4CAF50   ;
 }
  .message-feed:not(.right) .mf-content {
-	background: #ed5151   ;
+	background: #4CAF50  ;
 	color: #fff;
 }
  .message-feed:not(.right) .mf-content:before {
-	border-right-color: #ed5151   ;
+	border-right-color: #4CAF50   ;
 }
  .msb-reply button {
-	background: #ed5151   ;
+	background: #4CAF50   ;
 }
  .wizard-card .moving-tab {
-	background-color: #ed5151    !important;
+	background-color: #4CAF50    !important;
 }
  .wizard-card .choice:hover .icon, .wizard-card .choice.active .icon {
-	border-color: #ed5151    !important;
-	color: #ed5151    !important;
+	border-color: #4CAF50   !important;
+	color: #4CAF50    !important;
 }
  .cal1 .clndr .clndr-table .header-days {
 	background: #ed5151   ;
@@ -586,18 +586,18 @@
 }
  .carousel-indicators li.active {
 	color: #fff;
-	background: #ed5151   ;
+	background: #4CAF50  ;
 }
  .item-cards7-ic.realestate-list li a:hover {
-	color: #ed5151   ;
+	color: #4CAF50   ;
 }
  .item1-links a:hover {
-	color: #ed5151   ;
+	color: #4CAF50   ;
 }
  .item1-links a.active {
-	background: rgba(241, 238, 247, 0.6);
-	color: #ed5151   ;
-	border-right: 2px solid #ed5151   ;
+	background: rgba(76, 185, 80, 0.1);
+	color: #4CAF50   ;
+	border-right: 2px solid #4CAF50   ;
 }
  .settings-tab .tabs-menu li a.active {
 	background: #ed5151   ;
@@ -1231,8 +1231,8 @@
 }
 .custom-control-input:checked~.custom-control-label::before {
     color: #fff;
-    border-color: #ed5151;
-    background-color: #ed5151;
+    border-color: #4CAF50!important;
+    background-color: #4CAF50!important;
 }
 .rev-btn {
 	background-color:#ed5151;
@@ -1357,11 +1357,11 @@ a.text-secondary:focus,a.text-secondary:hover {
 	background-color: #4CAF50!important;
 }
 .bg-tag-gold-tx {
-	background-color: #ff9101!important;
+	background-color: #f0ad4e!important;
 }
 
 .arrow-ribbon.bg-tag-gold-tx:before {
-	border-left: 15px solid #ff9101  ;
+	border-left: 15px solid #f0ad4e  ;
 	/* background-color: #FFD700!important; */
 }
 

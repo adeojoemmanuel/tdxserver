@@ -1,32 +1,32 @@
 a:hover, a:focus {
-    color: #E52D27;
+    color: #4CAF50;
 }
 a ,.box h4 a:hover, .category-grid-box .short-description h3 a:hover, .category-grid-box .view-details:hover, .ad-listing .ad-content h3 a:hover, .car-details h4:hover, .post-title a:hover, .post-info a:hover, .popular-categories li a:hover, .ad-location-gird .location-title-disc h5:hover, .ad-location-gird .location-title-disc h5 a:hover, .footer-content .footer-widget .contact-info li:hover, .footer-content .footer-widget.links-widget li a:hover, .footer-content .news-widget .news-post a:hover, ul.category-list-style li a:hover, .funfacts h4 span, .singlepage-detail .content-box-grid .short-history li b, .singlepage-detail .content-box-grid .short-history li b a, .content-box-grid i, .share-ad .modal-body p a, .item-date a, .blog-sidebar .widget .tagcloud a:hover, .blog-sidebar .widget ul li a:hover, .comming-soon-grid .count-down #clock > span, .features .features-text h3:hover, .features .features-text h3 a:hover, .site-map-list li a:hover , .header-top ul li a:hover, .ad-archive-desc h3:hover, .ad-archive-desc h3 a:hover , .footer-area .contact-info li .icon , .heading-color  , .ad-preview-details .overview-price span , .ad-listing .content-area .price , .category-grid-box-1 a:hover, .category-grid i , .hero .content p:first-child b , ul.category-list-data li:hover::before, ul.category-list-data li:hover a , ul.category-list-data li:hover a span , .category-list-title h5 > a:hover , .view-more a:hover , .category-grid-box .short-description .price , .ad-price, ul.category-list-style li:hover a i , .sidebar .side-menu nav .nav > li > a:hover , .filter-brudcrums-sort ul li a:hover , .skin-minimal .list li label:hover , .advertising .banner .submit  , .recent-ads .recent-ads-list-price , .bread-3.page-header-area .small-breadcrumb .breadcrumb-link ul li a.active , .ad .content-zone .short-description-1 h3 a:hover , .user-profile ul li:hover a, .user-profile ul li.active a , .dashboard-menu-container ul li.active .menu-name , .dashboard-menu-container ul li:hover .menu-name , .tags-share .tags ul li a , .comment-list .comment .comment-info .author-desc .author-title li a:hover , .why-us:hover i, .why-us:hover h5 , .card .nav-tabs > li.active > a, .card .nav-tabs > li > a:hover , .accordion-title a:hover , .usefull-info .info-content h3:hover, .mega-menu .drop-down a:hover, .mega-menu .drop-down-tab-bar a:hover , .recent-ads .recent-ads-list-title a:hover   , .singleContadds i , .white.category-grid-box-1 .ad-info-1 ul li:hover, .white.category-grid-box-1 .ad-info-1 ul li a:hover , .ad-listing .content-area h3 a:hover , .ad-price-simple , .ad-archive-desc ul.short-meta li a:hover , .blog-sidebar .widget .table > tbody > tr > td a:hover , .search-result-item .info span a:hover , .search-result-item .info span a:hover , .message-details h2 a:hover , .mega-menu .menu-links > li > a:hover , .mega-menu .drop-down-multilevel li.activeTrigger > a , .mega-menu .drop-down-multilevel li:hover > a , .about-stats h4 span, .services-grid-3 .service-icon , .content-area h4:hover , .header-top ul.dropdown-menu li a:hover , .service-left .inner-box h3 a:hover , .service-right .inner-box h3 a:hover , .parallex .owl-testimonial-2 .single_testimonial h3:hover, .owl-testimonial-1 .single_testimonial h3:hover, .news .mainimage:hover a .overlay , .services-grid h4:hover , .white.category-grid-box-1 h3 a:hover , .custom-links a:hover , .services-grid-3 .content-area h1, .footer-top .widget.socail-icons li:hover, .footer-top .widget.my-quicklinks ul li a:hover , .comparison-box h2:hover, .comparison-box h2 a:hover , .message-inbox .message-header span a:hover, .message-inbox .message-header span a.active , .site-map-list li a:hover , .contact-in-header strong , .copyright p a , .copyright p a , .blog-post .post-excerpt a strong:hover , .post-review .summary-review .text-summary h5 , .post-review .summary-review .final-rate h6, .ad-listing-price p , .search-form-inner-type .box h4:hover , .news .newslist .texthold h4 a:hover , #accordion .panel-body.categories ul li a:hover, #accordion .panel-body.countries ul li a:hover , .search-modal .search-block .popular-search ul li a:hover , .user-information .user-name a:hover , .blog-post .blog-content .post-title a:hover , .single-blog.blog-detial .blog-post .post-excerpt.post-desc .comment-info p a  , .parallex-text h5 , .categories ul.category-classic-data li a:hover::before, .categories ul.category-classic-data li:hover a , .categories ul.category-classic-data li:hover a span , .category-list-title h5 > a:hover , .woocommerce .blog-sidebar .widget ul.product_list_widget li a span.product-title:hover , .shop-product-description h2 a:hover , .box a h4:hover , .woocommerce-MyAccount-navigation ul li a:hover  , .carspot-price-card p.price, .carspot-price-card p.price, .review-toggle-angle { 
 	color: #4CAF50;
 }
 
 .carspot-price-card::after , .carspot-price-card::before, .sidebar .nav > li.welcome-text {
-    background: #E52D27 !important;
+    background: #4CAF50 !important;
 }
 
 .woocommerce .blog-sidebar .widget .price_slider_wrapper .ui-slider .ui-slider-range , .woocommerce-product-search input , .product-thumb .owl-controls .owl-nav .owl-next, .product-thumb .owl-controls .owl-nav .owl-prev , .product-single .tab .nav-tabs li.active a, .product-single .tab .nav-tabs li.active a:focus, .product-single .tab .nav-tabs li.active a:hover , .recent-tab ul.nav.nav-tabs li.active a{
-    background: #E52D27 none repeat scroll 0 0;
+    background:#4CAF50 none repeat scroll 0 0;
 }
 .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button,  .featured-slider-shop .owl-controls .owl-nav .owl-next,  .featured-slider-shop .owl-controls .owl-nav .owl-prev , #quick-cart-pay > span, .mega-menu.with-search .menu-search-bar li .form-inline button.btn {
-	background-color: #e52d27 !important;
+	background-color: #4CAF50 !important;
 }
 
 
 #quick-cart-pay {
-    border: 2px solid #E52D27;
+    border: 2px solid #4CAF50;
 }
 
 .product-single .tab .nav-tabs li.active a:after{
-	 border-left: 15px solid #e52d27;
+	 border-left: 15px solid #4CAF50;
 }
 
 .rev_slider_wrapper .slider-main-button::before {
-    background: #E52D27 none repeat scroll 0 0;
+    background: #4CAF50 none repeat scroll 0 0;
 }
 .services-grid-new {
 	background: #000000;
@@ -201,13 +201,13 @@ fieldset[disabled] .btn-theme.active {
 	background: linear-gradient(to left, rgba(120, 2, 6, 0.8), rgba(6, 17, 97, 0.8));
 }
 .cluster div:before {
-	border: 7px solid #e52d27;
+	border: 7px solid #4CAF50;
 	opacity: 0.2;
-	box-shadow: inset 0 0 0 4px #e52d27;
+	box-shadow: inset 0 0 0 4px #4CAF50;
 }
 .cluster div {
-	background-color: #e52d27;
+	background-color: #4CAF50;
 }
 .sidebar .nav > li > a:focus, .sidebar .nav > li > a.active {
-	border-left-color: #e52d27;
+	border-left-color: #4CAF50;
 }

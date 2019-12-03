@@ -1,9 +1,944 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>post ad view</title>
-</head>
-<body>
-	<h1>this is the post ad route</h1>
-</body>
+<!doctype html>
+<html lang="en">
+
+	<head>
+
+		<!-- Meta data -->
+		<meta charset="UTF-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="Reallist- Bootstrap Responsive Real estate Classifieds, Dealer, Rentel, Builder and Agent Multipurpose HTML Template" name="description">
+		<meta content="Spruko Technologies Private Limited" name="author">
+		<meta name="keywords" content="html template, real estate websites, real estate html template, property websites, premium html templates, real estate company website, bootstrap real estate template, real estate marketplace html template, listing website template, property listing html template, real estate bootstrap template, real estate html5 template, real estate listing template, property template, property dealer website"/>
+
+		<!-- Favicon -->
+		<!-- <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> -->
+
+		<!-- Title -->
+		<title>Post Ad - Tradeplora</title>
+
+		<!-- Bootstrap Css -->
+		<link href="../assets/plugins/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet" />
+
+		<!-- Style css -->
+		<link href="../assets/css/style.css" rel="stylesheet" />
+
+		<!-- Font-awesome  Css -->
+		<link href="../assets/css/icons.css" rel="stylesheet"/>
+
+		<!--Horizontal Menu-->
+		<link href="../assets/plugins/horizontal-menu/horizontal.css" rel="stylesheet" />
+
+		<!--Select2 Plugin -->
+		<link href="../assets/plugins/select2/select2.min.css" rel="stylesheet" />
+
+		<!-- Cookie css -->
+		<link href="../assets/plugins/cookie/cookie.css" rel="stylesheet">
+
+		<!-- Custom scroll bar css-->
+		<link href="../assets/plugins/scroll-bar/jquery.mCustomScrollbar.css" rel="stylesheet" />
+
+		<!-- File Uploads css -->
+		<link href="../assets/plugins/fancyuploder/fancy_fileupload.css" rel="stylesheet" />
+
+		<!-- Color Skin -->
+		<link id="theme" rel="stylesheet" type="text/css" media="all" href="../assets/skins/color-skins/color15.css" />
+
+	</head>
+
+	<body>
+
+		<!--Loader-->
+		<div id="global-loader">
+			<img src="../assets/images/loader.svg" class="loader-img" alt="">
+		</div>
+
+		<!--Topbar-->
+<div class="header-main">
+		<div class="top-bar">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-8 col-lg-8 col-sm-4 col-6">
+						<div class="top-bar-left d-flex">
+							<div class="clearfix">
+							</div>
+							<div class="clearfix">
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-sm-8 col-6">
+						<div class="top-bar-right">
+							<ul class="custom">
+								<li>
+									<a routerLink="/register" href="register.html" class="text-dark text-white"><i class="fa fa-user mr-1"></i> <span>Register</span></a>
+								</li>
+								<li>
+									<a routerLink="/login" href="login.html" class="text-dark text-white"><i class="fa fa-sign-in mr-1"></i> <span>Login</span></a>
+								</li>
+								<li>
+									<a routerLink="/login" href="#" class="btn btn-tx btn-theme text-dark post-ad-header-tx"> POST AN AD</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/Topbar-->
+	
+		<!-- Header -->
+		<div class="horizontal-header clearfix ">
+			<div class="container">
+				<a id="horizontal-navtoggle" class="animated-arrow"><span></span></a>
+				<span class="smllogo"><img src="../assets/images/brand/tx-logo.png" alt=""/></span>
+				<!-- <i href="tel:245-6325-3256" class="callusbtn"><i class="fa fa-phone" aria-hidden="true"></i></a> -->
+				
+			</div>
+			
+		</div>
+		<!--/Header -->
+	
+		<!--Start Horizontal-main -->
+		<div class="horizontal-main bg-dark-transparent clearfix">
+			<div class="horizontal-mainwrapper container clearfix">
+				
+				<!-- <div class="desktoplogo-1" >
+					<a href="index.html"><img src="../assets/images/brand/tradexplora-main.svg" alt=""></a>
+				</div> -->
+				<!--Nav-->
+				<nav class="horizontalMenu clearfix d-md-flex">
+					<div class="desktoplogo" >
+						<a href="index.html"><img src="../assets/images/brand/tradexplora-main.svg" alt=""></a>
+					</div>
+					<ul class="horizontalMenu-list">
+						<li aria-haspopup="true"><a href="about.html" > ABOUT US </a>
+						</li>
+						<li aria-haspopup="true"><a href="#"> FAQ </a></li>
+						<!-- <li aria-haspopup="true"><a href="widgets.html">WIDGETS</a></li>							 -->
+						<!-- <li aria-haspopup="true"><a href="#">CATEGORIES <span class="fa fa-caret-down m-0" style="color: #232323;"></span></a>
+							<ul class="sub-menu">
+								<li aria-haspopup="true"><a href="col-left.html">Vehicles</a></li>
+								<li aria-haspopup="true"><a href="col-right.html">RealEstate</a></li>
+								<li aria-haspopup="true"><a href="col-right.html">Mobile Phones</a></li>
+							</ul>
+						</li> -->
+						<li aria-haspopup="true"><a href="contact.html"> CONTACT US <span class="hmarrow"></span></a></li>
+						<li aria-haspopup="true" class="d-lg-none mt-5 pb-5 mt-lg-0">
+							<!-- <span><a class="btn tx-btn-color" href="ad-posts.html">Post Property Ad</a></span> -->
+						</li>
+					</ul>
+					<!-- <ul class="mb-0">
+						<li aria-haspopup="true" class="mt-3 d-none d-lg-block top-postbtn">
+							<span><a class="btn tx-btn-color ad-post " href="ad-posts.html">Post Property Ad</a></span>
+						</li>
+					</ul> -->
+					<div class="call-us-now">
+						<div class="contact-in-header">
+							<i class="flaticon-customer-service"></i>
+							<span style="color: #999; float: right; line-height: 25px; margin-left: 10px; font-size: 16px;">
+								Call Us Now
+								<br>
+								<strong style="font-size: 20px; color: #4CAF50; font-weight: 600!important;">(+234) 811-111-1808</strong>
+							</spans>
+						</div>
+					</div>
+				</nav>
+				<!--Nav-->
+				
+				
+			</div>
+		</div>
+	</div>
+	<!--/Horizontal-main -->
+		
+		<!--Section-->
+		<section class="sptb">
+			<div class="container" style="padding-top: 70px;">
+				<div class="row ">
+					<div class="col-lg-8 col-md-12 col-md-12">
+						<div class="card">
+							<div class="card-header ">
+								<h3 class="card-title">Add Post</h3>
+							</div>
+							<div class="card-body">
+								<div class="ad-details">
+										<div class="row ad-information ">
+												<div class="col-md-12 ad-section-title">Ad Details</div>
+											</div>
+											<div class="form-group">
+												<label class="form-label text-dark">Ad Title</label>
+												<input type="text" class="form-control" placeholder="">
+											</div>
+											<div class="form-group">
+												<label class="form-label text-dark">Category</label>
+												<select class="form-control custom-select">
+													<option value="0">Select Option</option>
+													<option value="1">RealEstate</option>
+													<option value="2">Apartments</option>
+													<option value="3">Offices & Fitness</option>
+													<option value="4">2BHK Flats</option>
+													<option value="5">Apartments</option>
+													<option value="6">Laxury Rooms</option>
+													<option value="7">Homes</option>
+													<option value="8">Laxury Homes</option>
+													<option value="9">Modren Houses</option>
+													<option value="10">Home & Furinture</option>
+													<option value="11"> Homes</option>
+													<option value="12">Duplex House</option>
+													<option value="13">Laxury Rooms</option>
+													<option value="14">3BHK Flatss</option>
+												</select>
+											</div>
+											<div class="form-group">
+												<label class="form-label text-dark">Sub Category</label>
+												<select class="form-control custom-select">
+													<option value="0">Select Option</option>
+													<option value="1">RealEstate</option>
+													<option value="2">Apartments</option>
+													<option value="3">Offices & Fitness</option>
+													<option value="4">2BHK Flats</option>
+													<option value="5">Apartments</option>
+													<option value="6">Laxury Rooms</option>
+													<option value="7">Homes</option>
+													<option value="8">Laxury Homes</option>
+													<option value="9">Modren Houses</option>
+													<option value="10">Home & Furinture</option>
+													<option value="11"> Homes</option>
+													<option value="12">Duplex House</option>
+													<option value="13">Laxury Rooms</option>
+													<option value="14">3BHK Flatss</option>
+												</select>
+											</div>
+											<!-- <div class="form-group">
+												<label class="form-label text-dark">Type Of Ad</label>
+												<div class="d-md-flex ad-post-details">
+													<label class="custom-control custom-radio mb-2 mr-4">
+														<input type="radio" class="custom-control-input" name="radios" value="option1" checked="">
+														<span class="custom-control-label">I Want to Sell</span>
+													</label>
+													<label class="custom-control custom-radio  mb-2 mr-4">
+														<input type="radio" class="custom-control-input" name="radios" value="option2" >
+														<span class="custom-control-label">I Want to Buy</span>
+													</label>
+													<label class="custom-control custom-radio  mb-2">
+														<input type="radio" class="custom-control-input" name="radios" value="option3" >
+														<span class="custom-control-label">I Want to Rent</span>
+													</label>
+												</div>
+											</div> -->
+											<!-- <div class="form-group">
+												<label class="form-label text-dark">Who We Are</label>
+												<div class="d-md-flex ad-post-details">
+													<label class="custom-control custom-radio mb-2 mr-4">
+														<input type="radio" class="custom-control-input" name="radios2" value="option4" checked="">
+														<span class="custom-control-label">Owner </span>
+													</label>
+													<label class="custom-control custom-radio  mb-2 mr-4">
+														<input type="radio" class="custom-control-input" name="radios2" value="option5" >
+														<span class="custom-control-label">Agent</span>
+													</label>
+													<label class="custom-control custom-radio  mb-2">
+														<input type="radio" class="custom-control-input" name="radios2" value="option6" >
+														<span class="custom-control-label">Builder</span>
+													</label>
+												</div>
+											</div> -->
+											<div class="form-group">
+												<label class="form-label text-dark">Description</label>
+												<textarea class="form-control" name="example-textarea-input" rows="6" placeholder="text here.."></textarea>
+											</div>
+											<div class="row">
+												<div class="col-sm-6">
+													<div class="form-group">
+														<label class="form-label">Price</label>
+														<input type="number" class="form-control" placeholder="Price">
+													</div>
+												</div>
+												<div class="col-sm-6">
+													<div class="checkbox checkbox-info" style="margin-top: 56px;">
+														<label class="custom-control mt-4 custom-checkbox">
+															<input type="checkbox" class="custom-control-input" />
+															<span class="custom-control-label text-dark pl-2">Negotiable.</span>
+														</label>
+													</div>
+												</div>
+											</div>
+											
+											<div class="p-2 border mb-4 form-group">
+												<form>
+													<label >Upload Images</label>
+													<input id="demo" type="file" name="files" accept=".jpg, .png, image/jpeg, image/png, html, zip, css,js" multiple>
+												</form>
+											</div>
+								</div>
+								<div class="personal-details">
+										<div class="row ad-information">
+												<div class="col-md-12 ad-section-title">Personal Information</div>
+											</div>
+										<div class="row">
+											<div class="col-sm-6 col-md-6">
+												<div class="form-group">
+													<label class="form-label">Name</label>
+													<input type="text" class="form-control" placeholder="Name">
+												</div>
+											</div>
+											<div class="col-sm-6 col-md-6">
+												<div class="form-group">
+													<label class="form-label">Email</label>
+													<input type="email" class="form-control" placeholder="Email Address">
+												</div>
+											</div>
+											<div class="col-sm-6 col-md-6">
+												<div class="form-group mb-0">
+													<label class="form-label">Phone Number</label>
+													<input type="text" class="form-control" placeholder="Number">
+												</div>
+											</div>
+											<div class="col-sm-6 col-md-6">
+												<div class="form-group mb-0">
+													<label class="form-label">Address</label>
+													<input type="text" class="form-control" placeholder="Address">
+												</div>
+											</div>
+										</div>
+								</div>
+								<div class="post-package">
+									<div class="row package-information">
+										<div class="col-md-12 ad-section-title">Ad Post Package</div>
+									</div>
+								</div>
+								<div class="">
+									<div class="control-group form-group mb-0">
+										<!-- <label class="form-label text-dark"> <b>Ad Post Package</b> </label> -->
+										<p>Boosted ads help sellers promote their product or service by getting their ads more visibility with more buyers and sell what they want faster.</p>
+										<div class="row">
+											<div class="col-md-12">
+												<ul class="ad-post-details">
+													<li class="list-ad-package">
+														<label class="custom-control custom-radio mb-2 mr-4">
+															<input type="radio" class="custom-control-input" name="radios1" value="option7" checked="">
+															<span class="custom-control-label">Regular List <span class="font-weight-bold" style="float: right;">&#8358;00</span></span>
+														</label>
+													</li>
+													<li class="list-ad-package">
+														<label class="custom-control custom-radio  mb-2 mr-4">
+															<input type="radio" class="custom-control-input" name="radios1" value="option8" >
+															<span class="custom-control-label">Urgent Ad  <span class="font-weight-bold" style="float: right;">&#8358;500</span></span>
+														</label>
+													</li>
+													<li class="list-ad-package">
+														<label class="custom-control custom-radio  mb-2 mr-4">
+															<input type="radio" class="custom-control-input" name="radios1" value="option9" >
+															<span class="custom-control-label">Top Ad <span class="font-weight-bold" style="float: right;">&#8358;1000</span></span>
+														</label>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<!-- <div class="d-md-flex ad-post-details">
+											<label class="custom-control custom-radio mb-2 mr-4">
+												<input type="radio" class="custom-control-input" name="radios1" value="option7" checked="">
+												<span class="custom-control-label">Regular List / <span class="font-weight-bold">&#8358;00</span></span>
+											</label>
+											<label class="custom-control custom-radio  mb-2 mr-4">
+												<input type="radio" class="custom-control-input" name="radios1" value="option8" >
+												<span class="custom-control-label">Urgent Ad / <span class="font-weight-bold">&#8358;500</span></span>
+											</label>
+											<label class="custom-control custom-radio  mb-2 mr-4">
+												<input type="radio" class="custom-control-input" name="radios1" value="option9" >
+												<span class="custom-control-label">Top Ad /<span class="font-weight-bold">&#8358;1000</span></span>
+											</label>
+											<label class="custom-control custom-radio  mb-2">
+												<input type="radio" class="custom-control-input" name="radios1" value="option10" >
+												
+											</label>
+										</div> -->
+									</div>
+									<div class="link-to-senior-ads"><a href="" style="color: #4CAF50; margin: 12px 0px;">Want to get more value for your ads?</a></div>
+									<div class="row">
+										<div class="col-md-4">
+											<div class="senior-ads form-group">
+												<!-- <div class="senior-ads-tag" style="background-color: #F0AD4E;"></div> -->
+												<div class="senior-ads-header" style="background-color: #F0AD4E;">
+														<h4>&#8358;2500</h4>
+														<span>Gold</span>
+													</div>
+													<div class="senior-ads-body">
+															<p style="margin-bottom: 8px;">This package gives you the following benefits:</p>
+															<ul>
+																<li>
+																	<i class="fa fa-check-circle-o"></i>
+																	30 days ad boost
+																</li>
+																<li>
+																	<i class="fa fa-check-circle-o"></i>
+																	30 days ad boost
+																</li>
+																<li>
+																	<i class="fa fa-check-circle-o"></i>
+																	30 days ad boost
+																</li>
+															</ul>
+													</div>
+													<div class="select-senior-ad">
+															<button class="btn btn-block btn-primary"style="background-color: #d6ead7; border-color: #d6ead7; color: #4CAF50;">Select</button>
+														</div>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="senior-ads">
+												<!-- <div class="senior-ads-tag" style="background-color: #4CAF50;"></div> -->
+												<div class="senior-ads-header" style="background-color: #27c781;">
+													<h4>&#8358;5000</h4>
+													<span>Premium</span>
+												</div>
+												<div class="senior-ads-body">
+														<p style="margin-bottom: 8px;">This package gives you the following benefits:</p>
+														<ul>
+															<li>
+																<i class="fa fa-check-circle-o"></i>
+																30 days ad boost
+															</li>
+															<li>
+																<i class="fa fa-check-circle-o"></i>
+																30 days ad boost
+															</li>
+															<li>
+																<i class="fa fa-check-circle-o"></i>
+																30 days ad boost
+															</li>
+														</ul>
+												</div>
+												
+												<div class="select-senior-ad">
+													<button class="btn btn-block btn-primary"style="background-color: #d6ead7; border-color: #d6ead7; color: #4CAF50;">Select</button>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4">
+												<div class="senior-ads">
+													<!-- <div class="hot-ribbon senior-ads-tag" style="width: 16px; height: 16px"><img src="../assets/images/hot-deals.svg" style="margin-top: -4px;"> </div> -->
+													<div class="senior-ads-header" style="background-color: #4CAF50;">
+															<h4>&#8358;9000</h4>
+															<span>Hot</span>
+														</div>
+														<div class="senior-ads-body">
+																<p style="margin-bottom: 8px;">This package gives you the following benefits:</p>
+																<ul>
+																	<li>
+																		<i class="fa fa-check-circle-o"></i>
+																		30 days ad boost
+																	</li>
+																	<li>
+																		<i class="fa fa-check-circle-o"></i>
+																		30 days ad boost
+																	</li>
+																	<li>
+																		<i class="fa fa-check-circle-o"></i>
+																		30 days ad boost
+																	</li>
+																</ul>
+														</div>
+														<div class="select-senior-ad">
+																<button class="btn btn-block btn-primary"style="background-color: #d6ead7; border-color: #d6ead7; color: #4CAF50;">Select</button>
+															</div>
+												</div>
+											</div>
+									</div>
+								</div>
+							</div>
+							<!-- <div class="card-footer ">
+								<a href="#" class="btn btn-success">Submit Now</a>
+							</div> -->
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12">
+						<div class="card">
+							<div class="card-header">
+								<h3 class="card-title">Benefits Of Premium Ad</h3>
+							</div>
+							<div class="card-body pb-2">
+								<ul class="list-unstyled widget-spec vertical-scroll mb-0">
+									<li>
+										<i class="fa fa-check text-success" aria-hidden="true"></i>Premium Ads Active
+									</li>
+									<li>
+										<i class="fa fa-check text-success" aria-hidden="true"></i>Premium ads are displayed on top
+									</li>
+									<li>
+										<i class="fa fa-check text-success" aria-hidden="true"></i>Premium ads will be Show in Google results
+									</li>
+									<li>
+										<i class="fa fa-check text-success" aria-hidden="true"></i>Premium Ads Active
+									</li>
+									<li>
+										<i class="fa fa-check text-success" aria-hidden="true"></i>Premium ads are displayed on top
+									</li>
+									<li>
+										<i class="fa fa-check text-success" aria-hidden="true"></i>Premium ads will be Show in Google results
+									</li>
+									<li>
+										<i class="fa fa-check text-success" aria-hidden="true"></i>Premium Ads Active
+									</li>
+									<li>
+										<i class="fa fa-check text-success" aria-hidden="true"></i>Premium ads are displayed on top
+									</li>
+									<li>
+										<i class="fa fa-check text-success" aria-hidden="true"></i>Premium ads will be Show in Google results
+									</li>
+									<li>
+										<i class="fa fa-check text-success" aria-hidden="true"></i>Premium Ads Active
+									</li>
+									<li>
+										<i class="fa fa-check text-success" aria-hidden="true"></i>Premium ads are displayed on top
+									</li>
+									<li>
+										<i class="fa fa-check text-success" aria-hidden="true"></i>Premium ads will be Show in Google results
+									</li>
+									<li>
+										<i class="fa fa-check text-success" aria-hidden="true"></i>Premium Ads Active
+									</li>
+									<li>
+										<i class="fa fa-check text-success" aria-hidden="true"></i>Premium ads are displayed on top
+									</li>
+									<li>
+										<i class="fa fa-check text-success" aria-hidden="true"></i>Premium ads will be Show in Google results
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<h3 class="card-title">Terms And Conditions</h3>
+							</div>
+							<div class="card-body">
+								<ul class="list-unstyled widget-spec  mb-0">
+									<li>
+										<i class="fa fa-check text-success" aria-hidden="true"></i>Money Not Refundable
+									</li>
+									<li>
+										<i class="fa fa-check text-success" aria-hidden="true"></i>You can renew your Premium ad after experted.
+									</li>
+									<li>
+										<i class="fa fa-check text-success" aria-hidden="true"></i>Premium ads are active for depend on package.
+									</li>
+									<li class="ml-5 mb-0">
+										<a href="tips.html"> View more..</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="card mb-0">
+							<div class="card-header">
+								<h3 class="card-title">Ads</h3>
+							</div>
+							<div class="card-body">
+									<div class="ads">
+										<img src="../assets/images/gloads.jpg" alt="" srcset="">
+									</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-8">
+						<div class="card mb-xl-0">
+							<div class="card-header">
+								<h3 class="card-title">Payments</h3>
+							</div>
+							<div class="card-body">
+								<div class="tab-content card-body border mb-0 b-0">
+									<div class="panel panel-primary">
+										<div class=" tab-menu-heading border-0 pl-0 pr-0 pt-0">
+											<div class="tabs-menu1 ">
+												<!-- Tabs -->
+												<ul class="nav panel-tabs">
+													<li><a href="#tab5" class="active" data-toggle="tab">Wallet</a></li>
+													<li><a href="#tab6" data-toggle="tab">Credit/ Debit Card</a></li>
+													<li><a href="#tab7" data-toggle="tab">Cash</a></li>
+													<!-- <li><a href="#tab8" data-toggle="tab">Gift Voucher</a></li> -->
+												</ul>
+											</div>
+										</div>
+										<div class="panel-body tabs-menu-body pl-0 pr-0 border-0">
+											<div class="tab-content">
+												<div class="tab-pane active " id="tab5">
+													
+													<div class="form-group">
+														<label class="form-label">Wallet ID</label>
+														<div class="input-group">
+															<input type="text" class="form-control" placeholder="Wallet ID">
+															<!-- <span class="input-group-append">
+																<button class="btn btn-info" type="button"><i class="fa fa-cc-visa"></i> &nbsp; <i class="fa fa-cc-amex"></i> &nbsp;
+																<i class="fa fa-cc-mastercard"></i></button>
+															</span> -->
+														</div>
+													</div>
+													<div class="form-group">
+														<label class="form-label" >Wallet PIN</label>
+														<input type="number" class="form-control" id="name1" placeholder="PIN">
+													</div>
+													<div class="col-lg-12" style="padding-left: 0px!important;">
+														<div class="checkbox checkbox-info">
+															<label class="custom-control mt-4 custom-checkbox">
+																<input type="checkbox" class="custom-control-input" />
+																<span class="custom-control-label text-dark pl-2">I agree with the Terms and Conditions.</span>
+															</label>
+														</div>
+													</div>
+													<ul class=" mb-b-4 ">
+														<li><a href="#" class="btn btn-primary  mb-0 mr-2" style="padding: 8px 48px!important; font-weight: 500; font-size: 14px;">Pay</a></li>
+													</ul>
+													<!-- <div class="row">
+														<div class="col-sm-8">
+															<div class="form-group mb-sm-0">
+																<label class="form-label">Expiration</label>
+																<div class="input-group">
+																	<input type="number" class="form-control" placeholder="MM" name="expiremonth">
+																	<input type="number" class="form-control" placeholder="YY" name="expireyear">
+																</div>
+															</div>
+														</div>
+														<div class="col-sm-4 ">
+															<div class="form-group mb-0">
+																<label class="form-label">CVV <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="top" title="Please Enter last 3 digits"></i></label>
+																<input type="number" class="form-control" required="">
+															</div>
+														</div>
+													</div> -->
+												</div>
+												<div class="tab-pane " id="tab6">
+													<div class="form-group">
+														<label class="form-label" >CardHolder Name</label>
+														<input type="text" class="form-control" id="name1" placeholder="First Name">
+													</div>
+													<div class="form-group">
+														<label class="form-label">Card number</label>
+														<div class="input-group">
+															<input type="text" class="form-control" placeholder="Search for...">
+															<span class="input-group-append">
+																<button class="btn btn-info" type="button"><i class="fa fa-cc-visa"></i> &nbsp; <i class="fa fa-cc-amex"></i> &nbsp;
+																<i class="fa fa-cc-mastercard"></i></button>
+															</span>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-sm-8">
+															<div class="form-group mb-sm-0">
+																<label class="form-label">Expiration</label>
+																<div class="input-group">
+																	<input type="number" class="form-control" placeholder="MM" name="expiremonth">
+																	<input type="number" class="form-control" placeholder="YY" name="expireyear">
+																</div>
+															</div>
+														</div>
+														<div class="col-sm-4 ">
+															<div class="form-group mb-0">
+																<label class="form-label">CVV <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="top" title="Please Enter last 3 digits"></i></label>
+																<input type="number" class="form-control" required="">
+															</div>
+														</div>
+													</div>
+													<div class="col-lg-12" style="padding-left: 0px!important;">
+															<div class="checkbox checkbox-info">
+																<label class="custom-control mt-4 custom-checkbox">
+																	<input type="checkbox" class="custom-control-input" />
+																	<span class="custom-control-label text-dark pl-2">I agree with the Terms and Conditions.</span>
+																</label>
+															</div>
+														</div>
+														<ul class=" mb-b-4 ">
+															<li><a href="#" class="btn btn-primary  mb-0 mr-2" style="padding: 8px 48px!important; font-weight: 500; font-size: 14px;">Pay</a></li>
+														</ul>
+												</div>
+												<div class="tab-pane " id="tab7">
+													<div class="cash-info">
+														<h4>Cash payment procedure:</h4>
+
+														<p>Go to any bank teller and provide the following information:</p>
+														<ul>
+															<li>Platform: <b>eBillsPay</b> </li>
+															<li>Merchant: <b>Tradexplora</b> </li>
+															<li>Invoice: <b>42101992863</b> </li>
+															<li>Amount: <b>&#8358;9,000</b> </li>
+														</ul>
+													</div>
+													<!-- <div class="control-group form-group">
+														<div class="form-group">
+															<label class="form-label text-dark">All Banks</label>
+															<select class="form-control custom-select required category">
+																<option value="0">Select Bank</option>
+																<option value="1">Credit Agricole Group</option>
+																<option value="2">Bank of America</option>
+																<option value="3">Mitsubishi UFJ Financial Group</option>
+																<option value="4">BNP Paribas</option>
+																<option value="5">JPMorgan Chase & Co.</option>
+																<option value="6">HSBC Holdings</option>
+																<option value="7">Bank of China</option>
+																<option value="8">Agricultural Bank of China</option>
+																<option value="9">ChinaFlats Bank Corp.</option>
+																<option value="10">Industrial & Commercial Bank of China, or ICBC</option>
+															</select>
+														</div>
+													</div>
+													<p><a href="#" class="btn btn-primary">Log in Bank</a></p> -->
+												</div>
+												<!-- <div class="tab-pane " id="tab8">
+													<div class="form-group">
+														<label class="form-label">Gift Voucher</label>
+														<div class="input-group">
+															<input type="text" class="form-control" placeholder="Enter Your Gv Number">
+															<span class="input-group-append">
+																<button class="btn btn-info" type="button">
+																Apply</button>
+															</span>
+														</div>
+													</div>
+												</div> -->
+											</div>
+										</div>
+									</div>
+									<!-- <div class="form-group row clearfix">
+										<div class="col-lg-12">
+											<div class="checkbox checkbox-info">
+												<label class="custom-control mt-4 custom-checkbox">
+													<input type="checkbox" class="custom-control-input" />
+													<span class="custom-control-label text-dark pl-2">I agree with the Terms and Conditions.</span>
+												</label>
+											</div>
+										</div>
+										<ul class=" mb-b-4 ">
+											<li><a href="#" class="btn btn-primary  mb-0 mr-2">Continue</a></li>
+										</ul>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/Section-->
+
+		<!-- Newsletter-->
+		<!-- <section class="sptb bg-white border-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7 col-xl-6 col-md-12">
+						<div class="sub-newsletter">
+							<h3 class="mb-2"><i class="fa fa-paper-plane-o mr-2"></i> Subscribe To Our Newsletter</h3>
+							<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+						</div>
+					</div>
+					<div class="col-lg-5 col-xl-6 col-md-12">
+						<div class="input-group sub-input mt-1">
+							<input type="text" class="form-control input-lg " placeholder="Enter your Email">
+							<div class="input-group-append ">
+								<button type="button" class="btn btn-primary btn-lg br-tr-3  br-br-3">
+									Subscribe
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+		<!--/Newsletter-->
+
+		<!--Footer Section-->
+		<section>
+				<footer class="footer-bg">
+					<div class="footer-main">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-3 col-md-12">
+									<a href="../../../index.html" >
+										<img src="../../../assets/images/footer-logo.png" class="img-responsive" alt="Site logo" style="margin-bottom: 1rem">
+									</a>
+									<hr class="deep-purple  accent-2 mb-4 mt-0 d-inline-block mx-auto">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+									<ul class="apps-donwloads">
+										<li style="display: inline-block; margin: 0 4px 4px 0;">
+											<a href="#"><img src="../assets/images/appstore.png" alt="Android App"></a>
+										</li>
+										<li style="display: inline-block; margin: 0 4px 4px 0;">
+											<a href="#"><img src="../assets/images/googleplay.png" alt="IOS App"></a>
+										</li>                      
+									</ul>
+								</div>
+								
+			
+								<div class="col-lg-2 col-md-12">
+									<h6>Follow Us</h6>
+									<hr class="deep-purple  text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+									<ul class="list-unstyled mb-0">
+										<li class="contact-us-tx">
+											<a class="Facebook btn-floating btn-sm rgba-white-slight mx-1 waves-effect waves-light" href="#">
+												<i class="fa fa-facebook bg-facebook"></i>
+											</a><span><a  href="#">Facebook</a></span>
+										</li>
+										<li class="contact-us-tx">
+											<a class="Twitter btn-floating btn-sm rgba-white-slight mx-1 waves-effect waves-light" href="#">
+												<i class="fa fa-twitter bg-info"></i>
+											</a><span><a  href="#">Twitter</a></span>
+										</li>
+										<li class="contact-us-tx">
+											<a class="Linkedin btn-floating btn-sm rgba-white-slight mx-1 waves-effect waves-light" href="#">
+												<i class="fa fa-linkedin bg-linkedin"></i>
+											</a><span><a  href="#">Linkedin</a></span>
+										</li>
+										<li class="contact-us-tx">
+											<a class="Google btn-floating btn-sm rgba-white-slight mx-1 waves-effect waves-light" href="#">
+												<i class="fa fa-google-plus bg-danger-tx"></i>
+											</a><span><a  href="#">Google</a></span>
+										</li>	
+									</ul>
+									
+								</div>
+								
+								<div class="col-lg-2 col-md-12">
+									<h6>Quick Links</h6>
+									 <hr class="deep-purple text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+									<ul class="list-unstyled mb-0">
+										<li><a href="javascript:;">Home</a></li>
+										<li><a href="javascript:;">About Us</a></li>
+										<li><a href="javascript:;">Contant Us</a></li>
+										<li><a href="javascript:;">FAQ</a></li>
+										<li><a href="javascript:;">Regions</a></li>
+										<li><a href="javascript:;">Terms</a></li>
+									</ul>
+								</div>
+								<div class="col-lg-5 col-md-12">
+									<h6>Subscribe</h6>
+									<hr class="deep-purple  text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+									<p>We may send you information about related events, webinars, products and services which we believe.</p>
+									<div class="clearfix"></div>
+									<div class="input-group w-100">
+										<input type="text" class="form-control form-control-tx br-tl-3  br-bl-3 " placeholder="Email">
+										<div class="input-group-append ">
+											<button type="button" class="btn btn-primary br-tr-3  br-br-3"> SUBSCRIBE </button>
+										</div>
+									</div>
+									<!-- <div class="mt-5">Copyright © 2019 <a href="#" class="fs-14 text-primary-tx" style="color: #00BF8F !important;">Tradexplora</a>.</div> -->
+									<div>
+										<ul class="footer-payments" style="margin-top: 27px;">
+											<li class="pl-0" style=" width: 105px;"><a href="javascript:;"><img  src="../assets/images/Interswitch Logo.svg" ></a></li>
+											<li style=" width: 120px;"><a href="javascript:;"><img src="../assets/images/paystack-02.jpg" ></a></li>
+											<li ><a href="javascript:;"><img class="payment-card-icon-tx" src="../assets/images/visa_card.png" ></a></li>
+											<li ><a href="javascript:;"><img class="payment-card-icon-tx" src="../assets/images/master_card.png" ></a></li>
+											<li style=" width: 88px!important;"><a href="javascript:; "><img src="../assets/images/varve-logo-2.png" ></a></li>
+										</ul>
+										<!-- <div class="mt-0">Copyright © 2019 <a href="#" class="fs-14 text-primary-tx" style="color: #00BF8F !important;">Tradexplora</a>.</div> -->
+									</div>
+									
+								</div>
+								
+							</div>
+							
+							<div class="text-center payment-card-spacing-tx">
+								<div class="mt-0">Copyright © 2019 <a href="#" class="fs-14 text-primary-tx" style="color: #4CAF50 !important;">Tradexplora</a>. All rights reserved</div>
+							</div>
+							
+							<!-- <div class="row d-flex">
+								<div class="col-lg-12 col-sm-12 mt-3 mb-3 text-center ">
+									Copyright © 2019 <a href="#" class="fs-14 text-primary">Tradexplora</a>. 
+								</div>
+							</div> -->
+						</div>
+						<!-- <div class=" p-0 payment-card-tx">
+							<div class="container">
+								<div class="row d-flex">
+									<div class="col-lg-12 col-sm-12 mt-3 mb-3 text-center payment-card-spacing-tx">
+											
+										<ul class="footer-payments">
+											<li class="pl-0"><a href="javascript:;"><i class="fa fa-cc-amex text-muted payment-card-icon-tx" aria-hidden="true"></i></a></li>
+											<li><a href="javascript:;"><i class="fa fa-cc-visa text-muted payment-card-icon-tx" aria-hidden="true"></i></a></li>
+											<li><a href="javascript:;"><i class="fa fa-credit-card-alt text-muted payment-card-icon-tx" aria-hidden="true"></i></a></li>
+											<li><a href="javascript:;"><i class="fa fa-cc-mastercard text-muted payment-card-icon-tx" aria-hidden="true"></i></a></li>
+											<li><a href="javascript:;"><i class="fa fa-cc-paypal text-muted payment-card-icon-tx" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class=" p-0">
+							<div class="container">
+								<div class="row d-flex">
+									<div class="col-lg-12 col-sm-12 mt-3 mb-3 text-center ">
+										Copyright © 2019 <a href="#" class="fs-14 text-primary">Tradexplora</a>. 
+									</div>
+								</div>
+							</div>
+						</div> -->
+					</div>
+					
+				</footer>
+			</section>
+		<!--Footer Section-->
+
+		<!-- Back to top -->
+		<a href="#top" id="back-to-top" ><i class="fa fa-rocket"></i></a>
+
+		<!-- JQuery js-->
+		<script src="../assets/js/vendors/jquery-3.2.1.min.js"></script>
+
+		<!-- Bootstrap js -->
+		<script src="../assets/plugins/bootstrap-4.3.1-dist/js/popper.min.js"></script>
+		<script src="../assets/plugins/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+
+		<!--JQuery Sparkline Js-->
+		<script src="../assets/js/vendors/jquery.sparkline.min.js"></script>
+
+		<!-- Circle Progress Js-->
+		<script src="../assets/js/vendors/circle-progress.min.js"></script>
+
+		<!-- Star Rating Js-->
+		<script src="../assets/plugins/rating/jquery.rating-stars.js"></script>
+
+		<!--Owl Carousel js -->
+		<script src="../assets/plugins/owl-carousel/owl.carousel.js"></script>
+
+		<!--Horizontal Menu-->
+		<script src="../assets/plugins/horizontal-menu/horizontal.js"></script>
+
+		<!--JQuery TouchSwipe js-->
+		<script src="../assets/js/jquery.touchSwipe.min.js"></script>
+
+		<!--Select2 js -->
+		<script src="../assets/plugins/select2/select2.full.min.js"></script>
+		<script src="../assets/js/select2.js"></script>
+
+		<!-- Cookie js -->
+		<script src="../assets/plugins/cookie/jquery.ihavecookies.js"></script>
+		<script src="../assets/plugins/cookie/cookie.js"></script>
+
+		<!-- Custom scroll bar Js-->
+		<script src="../assets/plugins/scroll-bar/jquery.mCustomScrollbar.concat.min.js"></script>
+
+		<!-- sticky Js-->
+		<script src="../assets//js/sticky.js"></script>
+
+		<!-- Vertical scroll bar Js-->
+		<script src="../assets/plugins/vertical-scroll/jquery.bootstrap.newsbox.js"></script>
+		<script src="../assets/plugins/vertical-scroll/vertical-scroll.js"></script>
+
+		<!--File-Uploads Js-->
+		<script src="../assets/plugins/fancyuploder/jquery.ui.widget.js"></script>
+        <script src="../assets/plugins/fancyuploder/jquery.fileupload.js"></script>
+        <script src="../assets/plugins/fancyuploder/jquery.iframe-transport.js"></script>
+        <script src="../assets/plugins/fancyuploder/jquery.fancy-fileupload.js"></script>
+        <script src="../assets/plugins/fancyuploder/fancy-uploader.js"></script>
+
+		<!-- Custom scroll bar Js-->
+		<script src="../assets/plugins/scroll-bar/jquery.mCustomScrollbar.concat.min.js"></script>
+
+		<!-- Swipe Js-->
+		<script src="../assets/js/swipe.js"></script>
+
+		<!-- Scripts Js-->
+		<script src="../assets/js/owl-carousel.js"></script>
+
+		<!-- Custom Js-->
+		<script src="../assets/js/custom.js"></script>
+
+	</body>
 </html>
