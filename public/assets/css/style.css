@@ -41851,8 +41851,21 @@ body .modal-open {
 	border-radius: 6px;
 }
 
+.social-media-post-ad-row .col-md-3{
+	padding: 0px;
+}
+
 .social-media-post-ad {
 	text-align: center;
+	border-right: 1px solid #232323;
 }
-	
+
+.social-media-post-ad::last-child {
+	border-right: none;
+}
+
+
+.bg-instagram-tx {
+	background-color: #dd5ed3;
+}
 /* } */

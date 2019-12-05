@@ -869,8 +869,8 @@
 	background: linear-gradient(-225deg, rgba(74, 61, 184, 0.8) 48%, rgba(50, 228, 179, 0.8) 100%);
 }
  .bg-background2:before {
-	background: #003b2d !important;
-	opacity: 0.8;
+	background: #000 !important;
+	opacity: 0.2;
 }
  .bg-background-color:before {
 	background: #003b2d !important;
