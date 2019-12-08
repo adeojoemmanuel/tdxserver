@@ -243,9 +243,9 @@ window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overl
                       Welcome back:            <span>testuser </span> </div>
                   </li>
                   <li><a href="../tempview/dashboard-carspot.html" class=""><i class="la la-home"></i> <span>Dashboard</span></a></li>
-                  <li><a href="../tempview/edit-profile-carspot.html" class="active"><i class="la la-pencil"></i> <span>Edit Profile</span></a></li>
+                  <li><a href="../tempview/edit-profile-carspot.html" class=""><i class="la la-pencil"></i> <span>Edit Profile</span></a></li>
                           <!-- <li><a href="https://carspot.scriptsbundle.com/individual/oyink7/ "><i class="la la-user"></i> <span>My Profile</span></a></li> -->
-                  <li><a href="../tempview/messaging.html" class=""><i class="la la-envelope"></i> <span>My Messages</span></a></li>
+                  <li><a href="../tempview/messaging.html" class="active"><i class="la la-envelope"></i> <span>My Messages</span></a></li>
                   <li> <a href="#subPages" class="collapsed" data-toggle="collapse"><i class="la la-tasks"></i> <span>My Inventory</span> <i class="icon-submenu la la-chevron-left"></i></a>
                     <div id="subPages" class="collapse ">
                       <ul class="nav">
@@ -310,265 +310,303 @@ window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overl
             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                 <div class="panel  panel-headline">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Edit Profile</h3>
+                        <h3 class="panel-title">Messaging Panel</h3>
                         <!-- <a href="#" data-target="#myModal" data-toggle="modal">Change Password</a> -->
-                        <p class="panel-subtitle">Last logged in 2 hours Ago</p>
+                        <p class="panel-subtitle">Online</p>
                     </div>
-                    <div class="panel-body panel-body-settings">
+                    <div class="panel-body panel-body-settings panel-body-settings-messaging">
                         <div class="row">
-                            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 profile-summary-dashboard">
-                                <div class="col-md-6">
-                                        <div class="panel panel-dashbaord-edit panel-headline">
-                                                <div class="profile-card">
-                                                    <div class="profile-card-body">
-                                                        <div class="contact-box">
-                                                            <div class="contact-box-bg" id="store-image"></div>
-                                                            <div class="contact-img">
-                                                                <a href="https://carspot.scriptsbundle.com/individual/oyink7/"><img src="https://carspot.scriptsbundle.com/wp-content/uploads/2018/04/6.png" class="img-responsive" id="profile-image" alt="Profile Picture"></a>
-                                                            </div>
-                                                            <div class="contact-caption">
-                                                                <h4>testuser</h4>
-                
-                                                        <div class="clearfix"></div>
-                                                                <div class="upload-btn-wrapper">
-                                                                        <span class="tooltip-disabled" data-toggle="tooltip" title="Disabled in demo">
-                                                                            <button class="btn-profile"> Upload Photo</button>
-                                                                            <input type="file" id="imgInp" name="my_file_upload" accept="image/*" disabled="">
-                                                                        </span>
-                                                                                                                    </div>
-                                                            </div>
-                
-                                                        </div>
+                                <div class="col-md-12 col-xs-12 col-sm-12 ">
+                                        <div class="message-body">
+                                           <div class="col-md-4 col-sm-5 col-xs-12">
+                                              <div class="message-inbox">
+                                                 <div class="message-header">
+                                                    <h4>Inbox</h4>
+                                                    <span><a href="#"><small>Recevied Offers</small></a></span>
+                                                    <span><a href="#" class="active"><small>Sent Offers </small></a></span>
+                                                 </div>
+                                                 <div class="list-wrap ps-container ps-active-y"><ul class="message-history">
+                                                    <!-- LIST ITEM -->
+                                                    <li class="message-grid">
+                                                       <a href="#">
+                                                          <div class="image img-square">
+                                                             <img src="../assets/images/profile-product-details.jpg" alt="">
+                                                          </div>
+                                                          <div class="user-name">
+                                                             <div class="author">
+                                                                <span>John Doe</span>
+                                                                <div class="user-status"></div>
+                                                             </div>
+                                                             <p>Honda Civic 2017 Sports Edition</p>
+                                                             <div class="time">
+                                                               <span><i class="icon-envelope"></i></span>
+                                                             </div>
+                                                          </div>
+                                                       </a>
+                                                    </li>
+                                                    <!-- END / LIST ITEM -->
+                                                    <!-- LIST ITEM -->
+                                                    <li class="message-grid">
+                                                       <a href="#">
+                                                          <div class="image img-square">
+                                                             <img src="../assets/images/profile-product-details.jpg" alt="">
+                                                          </div>
+                                                          <div class="user-name">
+                                                             <div class="author">
+                                                                <span>Alex Curt</span>
+                                                                <div class="user-status"></div>
+                                                             </div>
+                                                             <p>Ford Focus 1.6 TDCi Edge 5dr</p>
+                                                             <div class="time">
+                                                                <span>2 days ago</span>
+                                                             </div>
+                                                          </div>
+                                                       </a>
+                                                    </li>
+                                                    <!-- END / LIST ITEM -->
+                                                    <!-- LIST ITEM -->
+                                                    <li class="message-grid">
+                                                       <a href="#">
+                                                          <div class="image img-square">
+                                                             <img src="../assets/images/profile-product-details.jpg" alt="">
+                                                          </div>
+                                                          <div class="user-name">
+                                                             <div class="author">
+                                                                <span>Sonu Monu</span>
+                                                                <div class="user-status"></div>
+                                                             </div>
+                                                             <p>2015 Lamborghini Huracan</p>
+                                                             <div class="time">
+                                                                <span><i class="icon-envelope"></i></span>
+                                                             </div>
+                                                          </div>
+                                                       </a>
+                                                    </li>
+                                                    <!-- END / LIST ITEM -->
+                                                    <!-- LIST ITEM -->
+                                                    <li class="active">
+                                                       <a href="#">
+                                                          <div class="image img-square">
+                                                             <img src="../assets/images/profile-product-details.jpg" alt="">
+                                                          </div>
+                                                          <div class="user-name">
+                                                             <div class="author">
+                                                                <span>Arslan Tariq</span>
+                                                                <div class="user-status"></div>
+                                                             </div>
+                                                             <p>BMW I8 1.5 Auto 4X4 2dr </p>
+                                                             <div class="time">
+                                                                <span><i class="icon-envelope"></i></span>
+                                                             </div>
+                                                          </div>
+                                                       </a>
+                                                    </li>
+                                                    <!-- END / LIST ITEM -->
+                                                    <!-- LIST ITEM -->
+                                                    <li class="message-grid">
+                                                       <a href="#">
+                                                          <div class="image img-square">
+                                                             <img src="../assets/images/profile-product-details.jpg" alt="">
+                                                          </div>
+                                                          <div class="user-name">
+                                                             <div class="author">
+                                                                <span>Alexa Grey</span>
+                                                                <div class="user-status"></div>
+                                                             </div>
+                                                             <p>Ferrari 458 Italia Convertibleo</p>
+                                                             <div class="time">
+                                                                <span>1 days ago</span>
+                                                             </div>
+                                                          </div>
+                                                       </a>
+                                                    </li>
+                                                    <!-- END / LIST ITEM -->
+                                                    <!-- LIST ITEM -->
+                                                    <li>
+                                                       <a href="#">
+                                                          <div class="image img-square">
+                                                             <img src="../assets/images/profile-product-details.jpg" alt="">
+                                                          </div>
+                                                          <div class="user-name">
+                                                             <div class="author">
+                                                                <span>Humayun</span>
+                                                                <div class="user-status"></div>
+                                                             </div>
+                                                             <p>Lcd for sale</p>
+                                                             <div class="time">
+                                                                <span>5 days ago</span>
+                                                             </div>
+                                                          </div>
+                                                       </a>
+                                                    </li>
+                                                    <!-- END / LIST ITEM -->
+                                                 </ul>
+                                                 <!-- <div class="ps-scrollbar-x-rail" style="width: 346px; display: none; left: 0px;"><div class="ps-scrollbar-x" style="left: 0px; width: 0px;"></div></div>
+                                                 <div class="ps-scrollbar-y-rail" style="top: 0px; height: 590px; display: inherit; right: 0px;">
+                                                    <div class="ps-scrollbar-y" style="top: 0px; height: 150px;"></div>
+                                                </div> -->
+                                            </div>
+                                              </div>
+                                           </div>
+                                           <div class="col-md-8 clearfix col-sm-5 col-xs-12 message-content">
+                                              <div class="message-details">
+                                                 <div class="author">
+                                                    <div class="image">
+                                                       <img src="../assets/images/profile-product-details.jpg" alt="">
                                                     </div>
-                                                </div>
-                                            </div>
-                                </div>
-                                <div class="col-md-6">
-                                        <div class="panel panel-dashbaord-edit panel-headline" style="margin-bottom: 0px;">
-                                                <div class="panel-heading">
-                                                    <h3 class="panel-title">Profile Details</h3>
-                                                </div>
-                                                <div class="panel-body" style="padding-bottom: 0px;">
-                                                    <ul class="profile-details">
-                                                        <li>
-                                                            <i class="la la-user"></i>
-                                                            <div class="profile-meta">
-                                                                <h6>Full Name</h6>
-                                                                <span>testuser</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <i class="la la-envelope"></i>
-                                                            <div class="profile-meta">
-                                                                <h6> Email</h6>
-                                                                <span>oyink7@gmail.com</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <i class="la la-mobile-phone"></i>
-                                                            <div class="profile-meta">
-                                                                <h6>Phone number</h6>
-                                                                <span>0123456789</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <i class="la la-users"></i>
-                                                            <div class="profile-meta">
-                                                                <h6>  Account Type</h6>
-                                                                <span> 
-                individual                                                </span>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                </div>
-                                <!-- <div class="col-md-4">
-                                        <div class="panel  panel-headline colored-panel">
-                                                <div class="panel-heading">
-                                                    <h3 class="panel-title">Package Details</h3>
-                                                </div>
-                                                <div class="panel-body">
-                                                    <ul class="profile-details">
-                                                        <li>
-                                                            <i class="la la-plus"></i>
-                                                            <div class="profile-meta">
-                                                                <h6>Simple Ads</h6>
-                                                                <span>5</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <i class="la la-star"></i>
-                                                            <div class="profile-meta">
-                                                                <h6> Featured Ads</h6>
-                                                                <span>3</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <i class="la la-retweet"></i>
-                                                            <div class="profile-meta">
-                                                                <h6>Bump up Ads</h6>
-                                                                <span>2</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <i class="la la-calendar"></i>
-                                                            <div class="profile-meta">
-                                                                <h6>Package Expiry date</h6>
-                                                                <span>
-                Package Expired                                                    </span>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                </div>
-                                 -->
-                                
-    
-                                    
-                            </div>
-                            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style="margin-top: 24px;">
-                                <div class="edit-profile-form">
-                                    <form id="sb_update_profile" class="sb_update_profile" data-parsley-validate="" novalidate="">
-                                        <div class="row">
-                                            <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
-                                                <div class="form-group">
-                                                    <label class="control-label control-label-dashboard">First Name</label>
-                                                    <input class="form-control form-control-dashboard" type="text" name="first_name" value="testuser" required="">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
-                                                <div class="form-group">
-                                                    <label class="control-label control-label-dashboard protip">Last Name</label>
-                                                    <input class="protip form-control form-control-dashboard" type="email" name="last_name" value="username" readonly="" data-pt-title=" You can not edit email address" data-pt-position="top" data-pt-scheme="dark-transparent" data-pt-size="small">
-                                                </div>
-                                            </div>
+                                                    <span class="author-name">Muhammad Umair</span>
+                                                    <em>5 days ago</em>
+                                                 </div>
+                                                 <h2><a href="single-page-listing.html">2017 Audi A4 sport Auto MY17 For Sale</a></h2>
+                                                 <div class="list-wraps ps-container ps-active-y"><ul class="messages">
+                                                    <li class="friend-message clearfix">
+                                                       <figure class="profile-picture">
+                                                          <img src="../assets/images/profile-product-details.jpg" class="img-circle img-circle-messaging" alt="Profile Pic">
+                                                       </figure>
+                                                       <div class="message">
+                                                          Morning! How are you doing today?
+                                                          <div class="time"><i class="fa fa-clock-o"></i> Today 8:53 AM</div>
+                                                       </div>
+                                                    </li>
+                                                    <li class="my-message clearfix">
+                                                       <figure class="profile-picture">
+                                                          <img src="../assets/images/profile-product-details.jpg" class="img-circle img-circle-messaging" alt="Profile Pic">
+                                                       </figure>
+                                                       <div class="message">
+                                                          Hey! I am doing good! What about you?
+                                                          <div class="time"><i class="fa fa-clock-o"></i> Today 8:55 AM</div>
+                                                       </div>
+                                                    </li>
+                                                    <li class="friend-message clearfix">
+                                                       <figure class="profile-picture">
+                                                          <img src="../assets/images/profile-product-details.jpg" class="img-circle img-circle-messaging" alt="Profile Pic">
+                                                       </figure>
+                                                       <div class="message">
+                                                          Doing great!
+                                                          <div class="time"><i class="fa fa-clock-o"></i> Today 8:56 AM</div>
+                                                       </div>
+                                                    </li>
+                                                    <li class="friend-message clearfix">
+                                                       <figure class="profile-picture">
+                                                          <img src="../assets/images/profile-product-details.jpg" class="img-circle img-circle-messaging" alt="Profile Pic">
+                                                       </figure>
+                                                       <div class="message">
+                                                          We just received a new project.
+                                                          <div class="time"><i class="fa fa-clock-o"></i> Today 8:56 AM</div>
+                                                       </div>
+                                                    </li>
+                                                    <li class="my-message clearfix">
+                                                       <figure class="profile-picture">
+                                                          <img src="../assets/images/profile-product-details.jpg" class="img-circle img-circle-messaging" alt="Profile Pic">
+                                                       </figure>
+                                                       <div class="message">
+                                                          Sweet! What is it about?
+                                                          <div class="time"><i class="fa fa-clock-o"></i> Today 9:00 AM</div>
+                                                       </div>
+                                                    </li>
+                                                    <li class="friend-message clearfix">
+                                                       <figure class="profile-picture">
+                                                          <img src="../assets/images/profile-product-details.jpg" class="img-circle img-circle-messaging" alt="Profile Pic">
+                                                       </figure>
+                                                       <div class="message">
+                                                          An Android and IOS app for client X.
+                                                          <div class="time"><i class="fa fa-clock-o"></i> Today 9:03 AM</div>
+                                                       </div>
+                                                    </li>
+                                                    <li class="my-message clearfix">
+                                                       <figure class="profile-picture">
+                                                          <img src="../assets/images/profile-product-details.jpg" class="img-circle img-circle-messaging" alt="Profile Pic">
+                                                       </figure>
+                                                       <div class="message">
+                                                          Is it a complex project? What is the deadline?
+                                                          <div class="time"><i class="fa fa-clock-o"></i> Today 9:07 AM</div>
+                                                       </div>
+                                                    </li>
+                                                    <li class="friend-message clearfix">
+                                                       <figure class="profile-picture">
+                                                          <img src="../assets/images/profile-product-details.jpg" class="img-circle img-circle-messaging" alt="Profile Pic">
+                                                       </figure>
+                                                       <div class="message">
+                                                          Nah! Rather simple for the team. We have 3 months to deliver the final product.
+                                                          <div class="time"><i class="fa fa-clock-o"></i> Today 9:08 AM</div>
+                                                       </div>
+                                                    </li>
+                                                    <li class="friend-message clearfix">
+                                                       <figure class="profile-picture">
+                                                          <img src="../assets/images/profile-product-details.jpg" class="img-circle img-circle-messaging" alt="Profile Pic">
+                                                       </figure>
+                                                       <div class="message">
+                                                          The client has a budget of $5000 btw.
+                                                          <div class="time"><i class="fa fa-clock-o"></i> Today 9:09 AM</div>
+                                                       </div>
+                                                    </li>
+                                                    <li class="my-message clearfix">
+                                                       <figure class="profile-picture">
+                                                          <img src="../assets/images/profile-product-details.jpg" class="img-circle img-circle-messaging" alt="Profile Pic">
+                                                       </figure>
+                                                       <div class="message">
+                                                          That is awesome!
+                                                          <div class="time"><i class="fa fa-clock-o"></i> Today 9:12 AM</div>
+                                                       </div>
+                                                    </li>
+                                                    <li class="my-message clearfix">
+                                                       <figure class="profile-picture">
+                                                          <img src="../assets/images/profile-product-details.jpg" class="img-circle img-circle-messaging" alt="Profile Pic">
+                                                       </figure>
+                                                       <div class="message">
+                                                          With that budget we can make something pretty powerful. As soon as I get to the office we can start the team briefing!
+                                                          <div class="time"><i class="fa fa-clock-o"></i> Today 9:12 AM</div>
+                                                       </div>
+                                                    </li>
+                                                    <li class="friend-message clearfix">
+                                                       <figure class="profile-picture">
+                                                          <img src="../assets/images/profile-product-details.jpg" class="img-circle img-circle-messaging" alt="Profile Pic">
+                                                       </figure>
+                                                       <div class="message">
+                                                          Absolutely! Can't wait to get started!
+                                                          <div class="time"><i class="fa fa-clock-o"></i> Today 9:14 AM</div>
+                                                       </div>
+                                                    </li>
+                                                    <li class="my-message clearfix">
+                                                       <figure class="profile-picture">
+                                                          <img src="../assets/images/profile-product-details.jpg" class="img-circle img-circle-messaging" alt="Profile Pic">
+                                                       </figure>
+                                                       <div class="message">
+                                                          I am just grabbing the coffee and doughnuts. I will be at the office ASAP.
+                                                          <div class="time"><i class="fa fa-clock-o"></i> Today 9:17 AM</div>
+                                                       </div>
+                                                    </li>
+                                                    <li class="friend-message clearfix">
+                                                       <figure class="profile-picture">
+                                                          <img src="../assets/images/profile-product-details.jpg" class="img-circle img-circle-messaging" alt="Profile Pic">
+                                                       </figure>
+                                                       <div class="message">
+                                                          Sure. We are wrapping up the previous project, you have some time.
+                                                          <div class="time"><i class="fa fa-clock-o"></i> Today 9:18 AM</div>
+                                                       </div>
+                                                    </li>
+                                                    <li class="my-message clearfix">
+                                                       <figure class="profile-picture">
+                                                          <img src="../assets/images/profile-product-details.jpg" class="img-circle img-circle-messaging" alt="Profile Pic">
+                                                       </figure>
+                                                       <div class="message">
+                                                          Alrighty, cool!
+                                                          <div class="time"><i class="fa fa-clock-o"></i> Today 9:17 AM</div>
+                                                       </div>
+                                                    </li>
+                                                 </ul><div class="ps-scrollbar-x-rail" style="width: 672px; display: none; left: 0px;"><div class="ps-scrollbar-x" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; height: 590px; display: inherit; right: 0px;"><div class="ps-scrollbar-y" style="top: 0px; height: 150px;"></div></div></div>
+                                                 <div class="chat-form ">
+                                                    <form role="form" class="form-inline">
+                                                       <div class="form-group">
+                                                          <input style="width: 100%" placeholder="Type a message here..." class="form-control" type="text">
+                                                       </div>
+                                                       <button class="btn btn-theme" type="submit"> <i class="fa fa-paper-plane-o"></i> </button>
+                                                    </form>
+                                                 </div>
+                                              </div>
+                                           </div>
                                         </div>
-                                        <div class="row">
-                                                <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
-                                                        <div class="form-group">
-                                                            <label class="control-label control-label-dashboard protip">Email Address</label>
-                                                            <input class="protip form-control form-control-dashboard" type="email" name="user_email" value="oyink7@gmail.com" readonly="" data-pt-title=" You can not edit email address" data-pt-position="top" data-pt-scheme="dark-transparent" data-pt-size="small">
-                                                        </div>
-                                                    </div>
-                                            <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
-                                                <div class="form-group">
-                                                    <label class="control-label control-label-dashboard">Mobile No</label>
-                                                    <input class="form-control form-control-dashboard" data-parsley-type="number" type="text" name="sb_user_contact" value="0123456789" required="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="row">
-                                            <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12">
-                                                <div class="form-group">
-                                                    <label class="control-label control-label-dashboard">About Yourself</label>
-                                                    <textarea class="form-control dashboard" name="sb_user_about" required="" rows="5"></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                                <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
-                                                    <div class="form-group">
-                                                        <label class="control-label control-label-dashboard">City</label>
-                                                        <select class="form-control form-control-dashboard select2-show-search border-bottom-0 w-100 select2-show-search" data-placeholder="Select">
-                                                                <optgroup label="Categories">
-                                                                    <option>-- Select City --</option>
-                                                                    <option value="1">Germany</option>
-                                                                    <option value="2">USA</option>
-                                                                    <option value="3">Canada</option>
-                                                                    <option value="4">Usa</option>
-                                                                    <option value="5">Afghanistan</option>
-                                                                    <option value="6">Albania</option>
-                                                                    <option value="7">China</option>
-                                                                    <option value="8">Denmark</option>
-                                                                    <option value="9">Finland</option>
-                                                                    <option value="10">India</option>
-                                                                    <option value="11">Kiribati</option>
-                                                                    <option value="12">Kuwait</option>
-                                                                    <option value="13">Mexico</option>
-                                                                    <option value="14">Pakistan</option>
-                                                                </optgroup>
-                                                            </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
-                                                    <div class="form-group">
-                                                        <label class="control-label control-label-dashboard protip">Country</label>
-                                                        <select class="form-control form-control-dashboard select2-show-search border-bottom-0 w-100 select2-show-search" data-placeholder="Select">
-                                                                <optgroup label="Categories">
-                                                                    <option>-- Select Country --</option>
-                                                                    <option value="1">Germany</option>
-                                                                    <option value="2">USA</option>
-                                                                    <option value="3">Canada</option>
-                                                                    <option value="4">Usa</option>
-                                                                    <option value="5">Afghanistan</option>
-                                                                    <option value="6">Albania</option>
-                                                                    <option value="7">China</option>
-                                                                    <option value="8">Denmark</option>
-                                                                    <option value="9">Finland</option>
-                                                                    <option value="10">India</option>
-                                                                    <option value="11">Kiribati</option>
-                                                                    <option value="12">Kuwait</option>
-                                                                    <option value="13">Mexico</option>
-                                                                    <option value="14">Pakistan</option>
-                                                                </optgroup>
-                                                            </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        <div class="row">
-                                                <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
-                                                    <div class="form-group">
-                                                        <label class="control-label control-label-dashboard">Facebook</label>
-                                                        <input class="form-control form-control-dashboard" type="text" name="sb_user_name" value="https://www.facebook.com/" required="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
-                                                    <div class="form-group">
-                                                        <label class="control-label control-label-dashboard protip">Twitter</label>
-                                                        <input class="protip form-control form-control-dashboard" type="email" name="user_email" value="https://www.twitter.com/" readonly="" data-pt-title=" You can not edit email address" data-pt-position="top" data-pt-scheme="dark-transparent" data-pt-size="small">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                    <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
-                                                        <div class="form-group">
-                                                            <label class="control-label control-label-dashboard">Whatsapp</label>
-                                                            <input class="form-control form-control-dashboard" type="text" name="sb_user_name" value="https://www.whatsapp.com/" required="">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
-                                                        <div class="form-group">
-                                                            <label class="control-label control-label-dashboard protip">Google</label>
-                                                            <input class="protip form-control form-control-dashboard" type="email" name="user_email" value="https://www.google.com/" readonly="" data-pt-title=" You can not edit email address" data-pt-position="top" data-pt-scheme="dark-transparent" data-pt-size="small">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                        <div class="row">
-                                            <div class="col-md-6 col-lg-6 col-xs-12 col-sm-6 col-lg-push-6 col-md-push-6 col-sm-push-6">
-                                                    <div class="form-group">
-                                                        <span class="tooltip-disabled pull-right" data-toggle="tooltip" title="Disabled in demo">
-                                                            <input class="btn btn-theme pull-right" type="submit" value="Update profile" style="border-radius: 8px;" disabled="">
-                                                        </span>
-                                                    </div>
-          
-                                            </div>
-                                            <div class="col-md-6 col-lg-6 col-xs-12 col-sm-6 col-lg-pull-6 col-md-pull-6 col-sm-pull-6">
-    
-    
-                                                    <!-- <div class="form-group">
-                                                        <div class="tooltip-disabled pull-left" data-toggle="tooltip" title="Disabled in demo">
-                                                            <input class="btn btn-default protip" type="button" value="Delete Account?" disabled="">
-                                                        </div>
-                                                    </div> -->
-                                                                                    </div>
-                                        </div>
-    
-                                    </form>
-                                </div>
-                            </div>
+                                     </div>
                         </div>
                     </div>
                 </div>
@@ -614,13 +652,7 @@ window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overl
             <!-- END MAIN -->
             <div class="clearfix"></div>
         </div>
-<!-- <div class="text-center margin-top-30 margin-bottom-20">
-        <ul class="pagination pagination-lg">
-<li class="active"><a href="index.html">1</a></li>
-<li><a href="page/2/index.html">2</a></li>
-<li><a href="page/2/index.html" >Next Page &raquo;</a></li>
-</ul>
-    </div> -->
+
 
  
 

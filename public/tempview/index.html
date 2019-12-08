@@ -243,7 +243,7 @@
 													</select>
 												</li>
 												<li class="dropdown mr-5">
-													<a href="#" class="text-dark" data-toggle="dropdown"><span> Language <i class="fa fa-caret-down text-muted"></i></span> </a>
+													<a href="#" class="text-dark dropdown-head" data-toggle="dropdown"><span> Language <i class="fa fa-caret-down text-muted"></i></span> </a>
 													<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
 														<a href="#" class="dropdown-item" >
 															English
@@ -263,7 +263,7 @@
 													</div>
 												</li>
 												<li class="dropdown">
-													<a href="#" class="text-dark" data-toggle="dropdown"><span>Currency <i class="fa fa-caret-down text-muted"></i></span></a>
+													<a href="#" class="text-dark dropdown-head" data-toggle="dropdown"><span>Currency <i class="fa fa-caret-down text-muted"></i></span></a>
 													<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
 														<a href="#" class="dropdown-item" >
 															USD
@@ -307,9 +307,10 @@
 																
 											
 																		<li class="dropdown">
-											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-																					<img class="img-circle resize" alt="Avatar" src="../assets/images/profile-product-details.jpg">                                    <span class="caret"></span></a>
+											<a href="#" class="dropdown-toggle dropdown-head" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+																					<img class="img-circle resize" alt="Avatar" src="../assets/images/boss.jpg">                                    <span class="caret" style="color: #fff!important"></span></a>
 											<ul class="dropdown-menu">
+													<li class="wallet-balance">  Balance  <span><img src="../assets/images/wallet.svg" height="20px" style="margin-top: -4px;" alt="" srcset="">00.00</span></li>
 												<li><a href="https://carspot.scriptsbundle.com/transparent-1/ad/2017-maserati-ghibli-sq4-blue-1695-miles/">Dashboard</a></li>
 												<li><a href="https://carspot.scriptsbundle.com/transparent-1/wp-login.php?action=logout&amp;redirect_to=https%3A%2F%2Fcarspot.scriptsbundle.com%2Ftransparent-1%2Fsign-in-to-your-account%2F&amp;_wpnonce=08f43e8da3">Logout</a></li>
 											</ul>
@@ -389,11 +390,12 @@
 							<div class="col-xl-10 col-lg-12 col-md-12 d-block mx-auto">
 								<div class="search-background bg-transparent">
 									<div class="form row no-gutters ">
-										<div class="form-group  col-xl-4 col-lg-3 col-md-12 mb-0  ">
-											<input type="text" class="form-control input-lg br-tr-md-0 br-br-md-0" id="text4" placeholder="What are you looking for?">
-											<span><i class="fa fa-search location-gps mr-1"></i></span>
+										<!-- <div class="col-xl-1 col-lg-2"></div> -->
+										<div class="form-group  col-xl-5 col-lg-5 col-md-12 mb-0  ">
+											<input type="text" class="form-control input-lg br-tr-md-0 br-br-md-0 main-search" id="text4" placeholder="What are you looking for?">
+											<span><i class="fa fa-bullhorn location-gps mr-1"></i></span>
 										</div>
-										<div class="form-group  col-xl-4 col-lg-3 col-md-12 mb-0  ">
+										<div class="form-group  col-xl-4 col-lg-4 col-md-12 mb-0  ">
 												<input type="text" class="form-control input-lg br-tr-md-0 br-br-md-0" id="text4" placeholder="Location">
 												<span><i class="fa fa-map-marker location-gps mr-1"></i></span>
 											</div>
@@ -413,8 +415,8 @@
 										</div>
 										
 										
-										<div class="col-xl-2 col-lg-2 col-md-2 mb-0">
-											<a href="#" class="btn btn-lg tx-btn-color br-tl-md-0 br-bl-md-0"><i class="fa fa-search"></i></a>
+										<div class="col-xl-1 col-lg-1 col-md-1 mb-0">
+											<a href="#" class="btn btn-lg tx-btn-color br-tl-md-0 br-bl-md-0 main-search-button"><i class="fa fa-search"></i></a>
 										</div>
 									</div>
 								</div>
@@ -499,7 +501,10 @@
 		<section class="sptb">
 			<div class="container">
 				<div class="section-title center-block text-center">
-					<h2>Popular Categories</h2>
+					<h2 style="display: inline-block; margin-left: 92px">Popular Categories</h2>
+					<div class="viewall">
+						<a href="../tempview/gridlist.html" >Show All</a>
+					</div>
 					<!-- <p>Explore with some of the top categories on our platform</p> -->
 				</div>
 				<div id="small-categories" class="small-categories">
@@ -513,7 +518,7 @@
 										</div>
 										<div class="item-card-text item-card-text-tx">
 											<h4 class="mb-0">Cars</h4>
-											<span class="badge badge-pill badge-primary w-15"><p class="badge-tx">45</p></span>
+											<span class="badge badge-pill badge-primary-tx badge-primary w-15"><p class="badge-tx">45</p></span>
 										</div>
 									</div>
 								</div>
@@ -529,7 +534,7 @@
 										</div>
 										<div class="item-card-text item-card-text-tx">
 											<h4 class="mb-0">Phones & Tablets</h4>
-											<span class="badge badge-pill badge-primary w-15"><p class="badge-tx">23</p></span>
+											<span class="badge badge-pill badge-primary-tx badge-primary w-15"><p class="badge-tx">23</p></span>
 										</div>
 									</div>
 								</div>
@@ -545,7 +550,7 @@
 										</div>
 										<div class="item-card-text item-card-text-tx">
 											<h4 class="mb-0">Real Estate</h4>
-											<span class="badge badge-pill badge-primary w-15"><p class="badge-tx">48</p></span>
+											<span class="badge badge-pill badge-primary-tx badge-primary w-15"><p class="badge-tx">48</p></span>
 										</div>
 									</div>
 								</div>
@@ -561,7 +566,7 @@
 										</div>
 										<div class="item-card-text item-card-text-tx">
 											<h4 class="mb-0">Electronics</h4>
-											<span class="badge badge-pill badge-primary w-15"><p class="badge-tx" style="margin-left: -4px!important;">15</p></span>
+											<span class="badge badge-pill badge-primary-tx badge-primary w-15"><p class="badge-tx" style="">15</p></span>
 										</div>
 									</div>
 								</div>
@@ -577,7 +582,7 @@
 										</div>
 										<div class="item-card-text item-card-text-tx">
 											<h4 class="mb-0">Fashion</h4>
-											<span class="badge badge-pill badge-primary w-15"><p class="badge-tx" style="margin-left: -4px!important;">12</p></span>
+											<span class="badge badge-pill badge-primary-tx badge-primary w-15"><p class="badge-tx" style="">12</p></span>
 										</div>
 									</div>
 								</div>
@@ -593,7 +598,7 @@
 										</div>
 										<div class="item-card-text item-card-text-tx">
 											<h4 class="mb-0">Jobs</h4>
-											<span class="badge badge-pill badge-primary w-15"><p class="badge-tx">05</p></span>
+											<span class="badge badge-pill badge-primary-tx badge-primary w-15"><p class="badge-tx">05</p></span>
 										</div>
 									</div>
 								</div>
@@ -609,7 +614,7 @@
 										</div>
 										<div class="item-card-text item-card-text-tx">
 											<h4 class="mb-0">Babies and Kids </h4>
-											<span class="badge badge-pill badge-primary w-15"><p class="badge-tx">09</p></span>
+											<span class="badge badge-pill badge-primary-tx badge-primary w-15"><p class="badge-tx">09</p></span>
 										</div>
 									</div>
 								</div>
@@ -625,7 +630,7 @@
 										</div>
 										<div class="item-card-text item-card-text-tx">
 											<h4 class="mb-0">Agriculture & Food</h4>
-											<span class="badge badge-pill badge-primary w-15"><p class="badge-tx">65</p></span>
+											<span class="badge badge-pill badge-primary-tx badge-primary w-15"><p class="badge-tx">65</p></span>
 										</div>
 									</div>
 								</div>
@@ -641,7 +646,7 @@
 										</div>
 										<div class="item-card-text item-card-text-tx">
 											<h4 class="mb-0">Animals & Pets</h4>
-											<span class="badge badge-pill badge-primary w-15"><p class="badge-tx">65</p></span>
+											<span class="badge badge-pill badge-primary-tx badge-primary w-15"><p class="badge-tx">65</p></span>
 										</div>
 									</div>
 								</div>
@@ -657,7 +662,7 @@
 										</div>
 										<div class="item-card-text item-card-text-tx">
 											<h4 class="mb-0">Handy man</h4>
-											<span class="badge badge-pill badge-primary w-15"><p class="badge-tx">65</p></span>
+											<span class="badge badge-pill badge-primary-tx badge-primary w-15"><p class="badge-tx">65</p></span>
 										</div>
 									</div>
 								</div>
@@ -1624,9 +1629,9 @@
 								<p>We may send you information about related events, webinars, products and services which we believe.</p>
 								<div class="clearfix"></div>
 								<div class="input-group w-100">
-									<input type="text" class="form-control form-control-tx br-tl-3  br-bl-3 " placeholder="Email">
+									<input type="text" class="form-control form-control-tx br-tl-3  br-bl-3 footer-input" placeholder="Email">
 									<div class="input-group-append ">
-										<button type="button" class="btn btn-primary br-tr-3  br-br-3"> SUBSCRIBE </button>
+										<button type="button" class="btn btn-primary br-tr-3  br-br-3 footer-subscribe"> SUBSCRIBE </button>
 									</div>
 								</div>
 								<!-- <div class="mt-5">Copyright © 2019 <a href="#" class="fs-14 text-primary-tx" style="color: #00BF8F !important;">Tradexplora</a>.</div> -->
