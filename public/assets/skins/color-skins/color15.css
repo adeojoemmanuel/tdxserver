@@ -98,7 +98,7 @@
 }
  .badge-primary {
 	color: #232323ba;
-    background-color: rgba(35, 35, 35, 0.1)!important;
+    background-color: #232323!important;
 }
  .badge-primary[href]:hover,   .badge-primary[href]:focus {
 	color: #fff;
@@ -600,27 +600,28 @@
 	border-right: 2px solid #4CAF50   ;
 }
  .settings-tab .tabs-menu li a.active {
-	background: #ed5151   ;
+	background: #4CAF50   ;
+	color: #fff!important;
 }
  .ads-tabs .tabs-menus ul li .active {
-	background: #ed5151   ;
+	background: #4CAF50   ;
 	color: #fff;
 }
  .showmore-button-inner {
-	border: 1px solid #ed5151;
-	color: #ed5151   ;
+	border: 1px solid #4CAF50;
+	color: #4CAF50   ;
 }
  .owl-nav button {
-	color: #00BF8F  !important;
+	color: #4CAF50  !important;
 }
  .owl-carousel:hover .owl-nav button {
-	color: #00BF8F  !important;
+	color: #4CAF50  !important;
 }
  .owl-nav>div i {
-	color: #ed5151   ;
+	color: #4CAF50   ;
 }
  .tabs-menu ul.eductaional-tabs li .active {
-	background: #ed5151   ;
+	background: #4CAF50   ;
 }
  .register-right .nav-tabs .nav-link:hover {
 	background: #ed5151   ;
@@ -868,8 +869,8 @@
 	background: linear-gradient(-225deg, rgba(74, 61, 184, 0.8) 48%, rgba(50, 228, 179, 0.8) 100%);
 }
  .bg-background2:before {
-	background: #003b2d !important;
-	opacity: 0.8;
+	background: #000 !important;
+	opacity: 0.2;
 }
  .bg-background-color:before {
 	background: #003b2d !important;
