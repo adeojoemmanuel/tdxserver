@@ -1401,6 +1401,10 @@ pre code {
 	.sticky-wrapper.is-sticky .horizontalMenu>.horizontalMenu-list>li>a {
 		color: #fff;
 	}
+
+	.sticky-wrapper.is-sticky .horizontalMenu>.horizontalMenu-list {
+		margin-top: -10px;
+	}
 	.sticky-wrapper.is-sticky .horizontalMenu>.horizontalMenu-list>li>a>.fa {
 		color: #fff;
 	}
@@ -1419,13 +1423,19 @@ pre code {
 		padding: 1.25rem 0;
 		margin: 0;
 		float: left;
-		/* width: 340px; */
+		width: 10rem;
 	}
 	.sticky-wrapper.is-sticky .horizontalMenu>.horizontalMenu-list>li {
 		padding: 1.25rem 0;
 	}
 	.desktoplogo-1 {
-		/* display: none; */
+		display: none;
+	}
+	.desktoplogo {
+		width: 17rem;
+	}
+	.desktoplogo img {
+		/* width: 10rem; */
 	}
 	.sticky-wrapper.is-sticky .desktoplogo {
 		display: none;
@@ -21902,9 +21912,7 @@ pre code {
 	.sticky-wrapper.is-sticky .horizontalMenu>.horizontalMenu-list>li {
 		padding: 1.25rem 0;
 	}
-	.desktoplogo {
-		width: 340px;
-	}
+	
 	.desktoplogo-1 {
 		display: none;
 	}
@@ -38763,7 +38771,7 @@ footer .border-top {
 	overflow: hidden;
 	/* position: relative;
 	z-index: 2; */
-	width: ;
+	/* width: ; */
 }
 .item-card-desc img {
 	opacity: 1;
@@ -41984,5 +41992,11 @@ body .modal-open {
 .wallet-balance span img {
 	margin-right: 5px;
 }
+
+/* .search-box {
+	position: relative;
+	z-index: 999;
+
+} */
 
 /* } */

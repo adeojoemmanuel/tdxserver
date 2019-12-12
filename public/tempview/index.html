@@ -343,17 +343,17 @@
 			<!--Start Horizontal-main -->
 			<div class="horizontal-main bg-dark-transparent clearfix">
 				<div class="horizontal-mainwrapper container clearfix">
-					<!-- <div class="desktoplogo" >
-						<a href="index.html"><img src="../assets/images/brand/TRADE XPLORA V2.2.1.1.png" alt=""></a>
-					</div>
-					<div class="desktoplogo-1" >
-						<a href="index.html"><img src="../assets/images/brand/TRADE XPLORA V2.2.1.1.png" alt=""></a>
-					</div> -->
+					
 					<!--Nav-->
 					<nav class="horizontalMenu clearfix d-md-flex">
 						
-						
-						<ul class="horizontalMenu-list">
+							<div class="desktoplogo" >
+								<a href="index.html"><img src="../assets/images/brand/TRADEXPLORAV3.1.png" alt=""></a>
+							</div>
+							<div class="desktoplogo-1" >
+								<a href="index.html"><img src="../assets/images/brand/TRADEXPLORAV3.1.png" alt=""></a>
+							</div>
+						<ul class="horizontalMenu-list" style="margin-top: 12px;">
 							<li aria-haspopup="true"><a href="about.html" > ABOUT US </a>
 							</li>
 							<li aria-haspopup="true"><a href="#"> FAQ </a></li>
@@ -364,11 +364,11 @@
 						<div class="call-us-now">
 							<div class="contact-in-header">
 								<i class="flaticon-customer-service"></i>
-								<span style="color: #999; float: right; line-height: 25px; margin-left: 10px; font-size: 16px;">
+								<p style="color: #999; float: right; line-height: 25px; margin-left: 10px; margin-top: 10px; font-size: 16px;">
 									Call Us Now
 									<br>
 									<strong style="font-size: 20px; color: #4CAF50; font-weight: 600!important;">(+234) 811-111-1808</strong>
-								</spans>
+								</p>
 							</div>
 						</div>
 					</nav>
@@ -378,8 +378,54 @@
 		<!--/Horizontal-main -->
 
 		<!--Start Section-->
-		<section>
+		<section class="owl-carousel" id="banner">
 			<div class="banner-1 cover-image sptb-2 sptb-tab bg-background2" data-image-src="../assets/images/banners/buyairtime.jpg">
+				<div class="header-text mb-0">
+					<div class="container">
+						<div class="text-center text-white mb-7">
+							<!-- <h1 class="mb-1">All you want in one place</h1>
+							<p>Join the strong Tradexplora community and never worry about ad search anymore.</p> -->
+						</div>
+						<div class="row">
+							<div class="col-xl-10 col-lg-12 col-md-12 d-block mx-auto">
+								<div class="search-background bg-transparent">
+									<div class="form row no-gutters ">
+										<!-- <div class="col-xl-1 col-lg-2"></div> -->
+										<div class="form-group  col-xl-5 col-lg-5 col-md-12 mb-0  ">
+											<input type="text" class="form-control input-lg br-tr-md-0 br-br-md-0 main-search" id="text4" placeholder="What are you looking for?">
+											<span><i class="fa fa-bullhorn location-gps mr-1"></i></span>
+										</div>
+										<div class="form-group  col-xl-4 col-lg-4 col-md-12 mb-0  ">
+												<input type="text" class="form-control input-lg br-tr-md-0 br-br-md-0" id="text4" placeholder="Location">
+												<span><i class="fa fa-map-marker location-gps mr-1"></i></span>
+											</div>
+										<div class="form-group col-xl-2 col-lg-2 col-md-12 select2-lg  mb-0 ">
+											<select class="form-control select2-show-search  border-bottom-0 select-home-page" data-placeholder="Property Type" >
+												<optgroup label="Categories">
+													<option >Category</option>
+													<option value="1">Phones & Tablets</option>
+													<option value="2">Real Estate</option>
+													<option value="3">Electronics</option>
+													<option value="4">Fashion</option>
+													<option value="5">Jobs</option>
+													<option value="6">Health</option>
+													<option value="7">Agriculture</option>
+												</optgroup>
+											</select>
+										</div>
+										
+										
+										<div class="col-xl-1 col-lg-1 col-md-1 mb-0">
+											<a href="#" class="btn btn-lg tx-btn-color br-tl-md-0 br-bl-md-0 main-search-button"><i class="fa fa-search"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- /header-text -->
+			</div>
+			<div class="banner-1 cover-image sptb-2 sptb-tab bg-background2" data-image-src="../assets/images/banners/getthebest.jpg">
 				<div class="header-text mb-0">
 					<div class="container">
 						<div class="text-center text-white mb-7">
@@ -1798,6 +1844,23 @@
 				slidesToShow: 1,
 				adaptiveHeight: true
 				});
+
+			$("#banner").owlCarousel({
+ 
+				navigation : false, // Show next and prev buttons
+				loop: true,
+				nav: false,
+				autoplay: true,
+				dots: false,
+				animateOut: 'fadeOut',
+				smartSpeed:450,
+				items : 1, 
+				// itemsDesktop : false,
+				// itemsDesktopSmall : false,
+				// itemsTablet: false,
+				// itemsMobile : false
+
+			});
 			});
 		  </script>
 

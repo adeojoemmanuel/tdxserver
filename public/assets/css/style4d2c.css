@@ -5726,21 +5726,21 @@ fieldset[disabled] .btn-purple.active {
     border: 1px solid #02a8f3
 }
 .alert.alert-info::after {
-    content: "ï?š"
+    content: "ï¿½?ï¿½"
 }
 .alert.alert-warning {
     background: #fe9700 none repeat scroll 0 0;
     border: 1px solid #fe9700
 }
 .alert.alert-warning::after {
-    content: "ï?±"
+    content: "ï¿½?ï¿½"
 }
 .alert.alert-danger {
     background: #f34235 none repeat scroll 0 0;
     border: 1px solid #f34235
 }
 .alert.alert-danger::after {
-    content: "ï?ª"
+    content: "ï¿½?ï¿½"
 }
 .alert.alert-success.alert-outline {
     background: transparent;
@@ -5772,7 +5772,7 @@ fieldset[disabled] .btn-purple.active {
     color: #232323
 }
 .alert.alert-danger::after {
-    content: "ï?ª"
+    content: "ï¿½?ï¿½"
 }
 .alert.alert-outline .close {
     color: #232323;
@@ -14051,6 +14051,219 @@ ul.review-stars li.star {
     font-size: 16px;
     width:auto;
 }
+
+@media (min-width: 992px) {
+    .sticky-wrapper.is-sticky .horizontal-main {
+		box-shadow: 2px 3px 4.7px .3px rgba(0, 0, 0, .24);
+		height: 80px!important;
+	}
+	.sticky-wrapper.is-sticky .horizontal-main .ad-post {
+		margin-top: -.25rem!important;
+	}
+	.sticky-wrapper.is-sticky .horizontal-main:after {
+		content: '';
+		position: absolute;
+		height: 3px;
+		border-top: 0;
+		border-radius: 5px;
+		z-index: 1;
+		width: 100%;
+		bottom: 0;
+	}
+	.sticky-wrapper.is-sticky .horizontalMenu>.horizontalMenu-list>li>a {
+		color: #fff;
+	}
+
+	.sticky-wrapper.is-sticky .horizontalMenu>.horizontalMenu-list {
+		margin-top: -10px;
+	}
+	.sticky-wrapper.is-sticky .horizontalMenu>.horizontalMenu-list>li>a>.fa {
+		color: #fff;
+	}
+	.sticky-wrapper.is-sticky .horizontalMenu>.horizontalMenu-list>li>a.active .fa {
+		color: #fff!important;
+		background: none;
+	}
+	.sticky-wrapper.is-sticky .horizontalMenu>.horizontalMenu-list>li>a:hover .fa {
+		color: #fff!important;
+		background: none;
+	}
+	.sticky-wrapper.is-sticky .desktoplogo-1 {
+		display: block!important;
+	}
+	.sticky-wrapper.is-sticky .desktoplogo-1 {
+		padding: 1.25rem 0;
+		margin: 0;
+		float: left;
+		width: 10rem;
+	}
+	.sticky-wrapper.is-sticky .horizontalMenu>.horizontalMenu-list>li {
+		padding: 1.25rem 0;
+	}
+	.desktoplogo-1 {
+		display: none;
+	}
+	.desktoplogo {
+		width: 17rem;
+	}
+	.desktoplogo img {
+		/* width: 10rem; */
+	}
+	.sticky-wrapper.is-sticky .desktoplogo {
+		display: none;
+	}
+	.sticky-wrapper.is-sticky .top-postbtn {
+		margin-top: 1.55rem !important;
+	}
+}
+
+.top-bar {
+	border-bottom: 1px solid #e8ebf3;
+	background: #fff;
+}
+.top-bar {
+	border-bottom: 1px solid #e8ebf3;
+	background: linear-gradient(90deg, rgba(0,105,4,1) 0%, rgba(0,66,4,1) 0%, rgba(0,36,10,1) 90%);
+}
+
+.top-bar-left ul {
+	margin-bottom: 0;
+}
+.top-bar .top-bar-right {
+	float: right;
+}
+.top-bar .top-bar-left {
+	display: flex;
+}
+.top-bar .top-bar-left .socials li {
+	display: inline-block;
+	float: left;
+	font-size: 15px;
+	margin: 9px 15px;
+}
+.top-bar .top-bar-left .contact li {
+	margin: 13px 5px;
+	display: inline-block;
+	color: #070510;
+}
+.top-bar .select-country .select2-container.select2-container--default.select2-container--below.select2-container--open{
+	width: 150px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+	color: #fff ;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered .select-home-page {
+	color: #232323 !important;
+}
+
+.select-country .select2-container--default .select2-selection--single .select2-selection__rendered {
+	color: #fff !important;
+}
+.top-bar .top-bar-right {
+	display: flex;
+}
+
+.top-bar .select-country .select2-container {
+    width: 150px !important;
+}
+
+.header-main .top-bar .contact {
+    /* margin: 0px; */
+    display: flex;
+    padding-left: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-main .top-bar .contact {
+    margin: 9px 0;
+    padding-left: 15px;
+}
+
+.header-main .top-bar .contact li {
+    /* margin: 0; */
+    color: #fff!important;
+}
+
+.header-main .top-bar .contact li {
+    margin: 0;
+}
+
+.d-lg-none {
+    display: none!important;
+}
+
+.select-languages .select2-container .select2-selection--single {
+	height: 1.4rem!important;
+	color: #a7b4c9 !important;
+	border-radius: 2px;
+	background: 0 0!important;
+	border: 0!important;
+}
+.select-languages .select2-container--default .select2-selection--single .select2-selection__rendered {
+	line-height: 20.5px!important;
+}
+.select-languages .select2-container--default .select2-selection--single .select2-selection__arrow {
+	top: -2px!important;
+}
+.select-languages .select2-container {
+	width: 138px!important;
+}
+.select-languages .select2-results {
+	color: #a7b4c9!important;
+}
+.select-currency .select2-container .select2-selection--single {
+	height: 1.4rem!important;
+	color: #a7b4c9 !important;
+	border-radius: 2px;
+	background: 0 0!important;
+	border: 0!important;
+}
+.select-currency .select2-container--default .select2-selection--single .select2-selection__rendered {
+	line-height: 20.5px!important;
+}
+.select-currency .select2-container--default .select2-selection--single .select2-selection__arrow {
+	top: -2px!important;
+}
+.select-currency .select2-container {
+	width: 138px!important;
+}
+.select-currency .select2-results {
+	color: #a7b4c9!important;
+}
+.select-country .select2-container .select2-selection--single .select2-selection__rendered {
+	padding-left: 3px;
+}
+.select-country .select2-container {
+	width: 150px!important;
+}
+.select-country .select2-container .select2-selection--single {
+	height: 1.4rem!important;
+	color: #a7b4c9 !important;
+	border-radius: 2px;
+	background: 0 0!important;
+	border: 0!important;
+}
+.select-country .select2-container--default .select2-selection--single .select2-selection__rendered {
+	line-height: 21px!important;
+}
+.select-country .select2-container--default .select2-selection--single .select2-selection__arrow {
+	top: -3px!important;
+}
+.select-country .select2-results {
+	color: #a7b4c9!important;
+}
+.select-country .select2-container .select2-selection--single .select2-selection__rendered {
+	padding-left: 3px;
+}
+.select2-results__option {
+	font-size: 13px;
+}
+
+
+
+
 
 
 
