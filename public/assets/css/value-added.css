@@ -1,0 +1,21 @@
+.value {
+    background-color: #4caf50;
+}
+
+.value-header {
+    height: 300px;
+    text-align: center;
+    
+}
+
+.value-section {
+    margin: 0 370px;
+}
+
+.val-headertext {
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 40px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif !important;
+}

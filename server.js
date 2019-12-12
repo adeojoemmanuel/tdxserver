@@ -48,6 +48,15 @@ app.get('/userprofile',  (req,res)=>{
 	res.sendFile(path.join(__dirname, 'public/tempview/userprofile.html'))
 })
 
+app.get('/valueadd',  (req,res)=>{
+	res.sendFile(path.join(__dirname, 'public/tempview/value-add.html'))
+})
+
+app.get('/value-individual',  (req,res)=>{
+	res.sendFile(path.join(__dirname, 'public/tempview/val-ind.html'))
+})
+
+
 app.get("*", (req,res)=>{
 	res.sendFile(path.join(__dirname, 'public/tempview/index.html'))
 })
