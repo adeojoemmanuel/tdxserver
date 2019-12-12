@@ -41,6 +41,14 @@ exports.postad = (req,res)=>{
   res.sendFile(path.join(__dirname, 'public/tempview/postad.html'))
 }
 
+exports.valueadd = (req,res)=>{
+  res.sendFile(path.join(__dirname, 'public/tempview/value-add.html'))
+}
+
+exports.valueindividual = (req,res)=>{
+  res.sendFile(path.join(__dirname, 'public/tempview/val-ind.html'))
+}
+
 
 exports.register = (req,res)=>{
   // register Custormer
