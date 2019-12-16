@@ -7482,10 +7482,10 @@ ul.listingViewIcon li.shortByListingLi ul li a {
 }
 .header-listing .custom-select-box .select2-container--default .select2-selection--single .select2-selection__rendered {
     color: #444;
-    line-height: 61px
+    line-height: 46px
 }
 .header-listing .custom-select-box .select2-container--default .select2-selection--single .select2-selection__arrow {
-    height: 57px
+    height: 42px
 }
 .header-listing {
     display: inline-block;
@@ -14932,17 +14932,17 @@ hr.accent-2 {
     bottom: 0;
 }
 .sticky-wrapper.is-sticky .horizontalMenu>.horizontalMenu-list>li>a {
-    color: #fff;
+    color: #232323;
 }
 .sticky-wrapper.is-sticky .horizontalMenu>.horizontalMenu-list>li>a>.fa {
-    color: #fff;
+    color: #777;
 }
 .sticky-wrapper.is-sticky .horizontalMenu>.horizontalMenu-list>li>a.active .fa {
-    color: #fff!important;
+    color: #777!important;
     background: none;
 }
 .sticky-wrapper.is-sticky .horizontalMenu>.horizontalMenu-list>li>a:hover .fa {
-    color: #fff!important;
+    color: #777!important;
     background: none;
 }
 .sticky-wrapper.is-sticky .desktoplogo-1 {
@@ -14954,7 +14954,7 @@ hr.accent-2 {
     float: left;
 }
 .sticky-wrapper.is-sticky .horizontalMenu>.horizontalMenu-list>li {
-    padding: 1.25rem 0;
+    padding: 2rem 0;
 }
 .sticky-wrapper.is-sticky .desktoplogo {
     display: none;
@@ -14966,7 +14966,7 @@ hr.accent-2 {
     background: 0 0;
 }
 .sticky-wrapper.is-sticky .desktoplogo-1 {
-    display: none!important;
+    display: none;
 }
 .horizontal-main.dashboard {
     position: fixed!important;
@@ -15065,10 +15065,21 @@ hr.accent-2 {
     border-radius: 50%;
     border: 2px solid #fff;
 }
+.horizontalMenu-list{
+    color: #777!important;
+}
 
 @media (min-width: 992px) {
     .desktoplogo-1 {
         display: none;
+    }
+
+    .sticky-wrapper.is-sticky .desktoplogo-1 {
+        padding: 2.88rem 0;
+        margin: 0;
+        float: left;
+        display: block!important;
+        width: 15.294rem;
     }
 }
 
@@ -15083,6 +15094,61 @@ hr.accent-2 {
         width: 18.74em;
     }
 }
+
+.text-muted-caret {
+    color: #a6a3ba!important;
+}
+
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.footer-main .form-control.form-control-tx {
+    border: 2px solid #f5f5f5!important;
+}
+
+.footer-input {
+    background-color: #f5f5f5;
+    border-radius: 60px 0px 0px 60px!important;
+    padding: 2.512rem 1.2rem!important;
+}
+
+.input-group-append, .input-group-btn, .input-group-prepend {
+    font-size: 1.5rem;
+}
+
+.footer-subscribe {
+    border-radius: 0px 60px 60px 0px!important;
+    font-weight: 400;
+    padding: 0.6rem 1.2rem!important;
+    letter-spacing: 0.39px;
+    line-height: 1.4286004;
+}
+/* @media (min-width: 992px)
+.sticky-wrapper.is-sticky .desktoplogo-1 {
+    padding: 1.8rem 0;
+    margin: 0;
+    float: left;
+}
+
+@media (min-width: 992px)
+.sticky-wrapper.is-sticky .desktoplogo-1 {
+    display: block!important;
+}
+@media (min-width: 992px)
+.sticky-wrapper.is-sticky .desktoplogo-1 {
+    padding: 1.25rem 0;
+    margin: 0;
+    float: left;
+    width: 10rem;
+} */
 
 
 
