@@ -24,7 +24,7 @@
     "sequelize": "^4.37.6"
   },
   "devDependencies": {
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "request": "^2.88.0"
   }
 }
